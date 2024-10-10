@@ -8,3 +8,11 @@
        \|__|\|_______|\|__|\|__|\___/ /     
                                \|___|/      
 ```
+# Bay 13s
+    * Erm Bay 13 i hardly know 'er
+
+# Group Members
+    * Egemen
+    * Mei
+    * Moc
+    * Naut
