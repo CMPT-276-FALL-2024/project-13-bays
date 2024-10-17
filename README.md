@@ -1,7 +1,6 @@
 # Group 13 Bays Project
 ## SFU Toolbox
 ```
-     SFU Toolbox
     _____________
    | ___ ___ ___ |
    ||_=_|_=_|_=_||
