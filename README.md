@@ -13,6 +13,7 @@
 ### Description
 * A website that serves the main purposes of a student which are locating an available study space
   when they need it and transiting to the campus. 
+* Demo
 
 ## Group Members
     * Egemen 
