@@ -1,4 +1,7 @@
+# Group 13 Bays Project
+## SFU Toolbox
 ```
+     SFU Toolbox
     _____________
    | ___ ___ ___ |
    ||_=_|_=_|_=_||
@@ -7,11 +10,11 @@
    ||____===____||
    ''-----------''
 ```
-# SFU Toolbox
-    * Erm Bay 13 i hardly know 'er
+### Description
+A website that serves the main purposes of a student which are locating an available study space when they need it and transiting to the campus. 
 
-# Group Members
-    * Egemen
+## Group Members
+    * Egemen 
     * Mei
     * Moc
     * Naut
