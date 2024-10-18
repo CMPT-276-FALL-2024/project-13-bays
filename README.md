@@ -18,6 +18,7 @@
 ## M0 AI Form
 - [AI Declaration Form (Naut)](docs/ai-disclosures/M0/M0_AI_Declaration_Yifei_Jia_301440620.pdf)<br>
 - [AI Declaration Form (Moc)](docs/ai-disclosures/M0/M0_AI_Declaration_Moc_Wang_301450080.pdf)
+- [AI Declaration Form (Meiirim)](docs/ai-disclosures/M0/P0_AI_Declaration_Meiirim_Zholmukhan_301635123.pdf)
 
 ## Group Members
 [`Egemen`](https://github.com/gmnguney)
