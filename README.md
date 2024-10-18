@@ -19,7 +19,7 @@
 - [AI Declaration Form (Naut)](docs/ai-disclosures/M0/M0_AI_Declaration_Yifei_Jia_301440620.pdf)
 
 ## Group Members
-> [`Egemen`](https://github.com/gmnguney)
-> [`Mei`](https://github.com/meirimzh)
-> [`Moc`](https://github.com/Moc01)
-> [`Naut`](https://github.com/odesaur)
+[`Egemen`](https://github.com/gmnguney)
+[`Mei`](https://github.com/meirimzh)
+[`Moc`](https://github.com/Moc01)
+[`Naut`](https://github.com/odesaur)
