@@ -15,10 +15,16 @@
 > when they need it and transiting to the campus. 
 
 ## M0 AI Disclosure Forms
-- [AI Decleration Form (Egemen)](docs/ai-disclosures/M0/P0_AI_Declaration_Egemen_Guney_301560582.pdf)
-- [AI Declaration Form (Naut)](docs/ai-disclosures/M0/P0_AI_Declaration_Yifei_Jia_301440620.pdf)<br>
-- [AI Declaration Form (Moc)](docs/ai-disclosures/M0/P0_AI_Declaration_Moc_Wang_301450080.pdf)
-- [AI Declaration Form (Meiirim)](docs/ai-disclosures/M0/P0_AI_Declaration_Meiirim_Zholmukhan_301635123.pdf)
+- [AI Disclosure Form (Egemen)](docs/ai-disclosures/M0/P0_AI_Declaration_Egemen_Guney_301560582.pdf)
+- [AI Disclosure Form (Naut)](docs/ai-disclosures/M0/P0_AI_Declaration_Yifei_Jia_301440620.pdf)<br>
+- [AI Disclosure Form (Moc)](docs/ai-disclosures/M0/P0_AI_Declaration_Moc_Wang_301450080.pdf)
+- [AI Disclosure Form (Meiirim)](docs/ai-disclosures/M0/P0_AI_Declaration_Meiirim_Zholmukhan_301635123.pdf)
+
+## M1 AI Disclosure Forms
+- [AI Disclosure Form (Egemen)](docs/ai-disclosures/M1/P1_AI_Declaration_Egemen_Guney_301560582.pdf) 
+- [AI Disclosure Form (Naut)](docs/ai-disclosures/M1/P1_AI_Declaration_Yifei_Jia_301440620.pdf) 
+- [AI Disclosure Form (Moc)](docs/ai-disclosures/M1/P1_AI_Declaration_Moc_Wang_301450080.pdf) 
+- [AI Disclosure Form (Meiirim)](docs/ai-disclosures/M1/P1_AI_Declaration_Meiirim_Zholmukhan_301635123.pdf) 
 
 ## Group Members
 [`Egemen`](https://github.com/gmnguney)
