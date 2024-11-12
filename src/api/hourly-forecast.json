@@ -1,0 +1,3731 @@
+{
+    "lat": "49.24966N",
+    "lon": "123.11934W",
+    "elevation": 70,
+    "timezone": "America/Vancouver",
+    "units": "ca",
+    "hourly": {
+        "data": [
+            {
+                "date": "2024-11-11T17:00:00",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Possible rain",
+                "temperature": 6.2,
+                "feels_like": 5.0,
+                "wind_chill": 5.0,
+                "dew_point": 4.5,
+                "wind": {
+                    "speed": 8.7,
+                    "gusts": 21.5,
+                    "dir": "ESE",
+                    "angle": 103
+                },
+                "cloud_cover": 80,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 83,
+                    "storm": 0.0,
+                    "freeze": 17
+                },
+                "ozone": 350.3,
+                "uv_index": 0.0,
+                "humidity": 88,
+                "visibility": 14.36
+            },
+            {
+                "date": "2024-11-11T18:00:00",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Possible rain",
+                "temperature": 5.2,
+                "feels_like": 5.0,
+                "wind_chill": 4.0,
+                "dew_point": 4.5,
+                "wind": {
+                    "speed": 8.5,
+                    "gusts": 19.4,
+                    "dir": "E",
+                    "angle": 90
+                },
+                "cloud_cover": 82,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 22
+                },
+                "ozone": 356.24,
+                "uv_index": 0.0,
+                "humidity": 94,
+                "visibility": 10.46
+            },
+            {
+                "date": "2024-11-11T19:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 4.2,
+                "feels_like": 2.5,
+                "wind_chill": 3.5,
+                "dew_point": 3.8,
+                "wind": {
+                    "speed": 9.3,
+                    "gusts": 19.9,
+                    "dir": "E",
+                    "angle": 82
+                },
+                "cloud_cover": 88,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 27
+                },
+                "ozone": 360.1,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 7.32
+            },
+            {
+                "date": "2024-11-11T20:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 6.5,
+                "wind_chill": 7.5,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 6.9,
+                    "gusts": 29.0,
+                    "dir": "SSE",
+                    "angle": 149
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 3.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 361.68,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 3.38
+            },
+            {
+                "date": "2024-11-11T21:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 6.5,
+                "wind_chill": 7.5,
+                "dew_point": 7.2,
+                "wind": {
+                    "speed": 7.1,
+                    "gusts": 32.6,
+                    "dir": "NE",
+                    "angle": 52
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.2,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 360.31,
+                "uv_index": 0.0,
+                "humidity": 98,
+                "visibility": 0.72
+            },
+            {
+                "date": "2024-11-11T22:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 7.5,
+                "feels_like": 6.2,
+                "wind_chill": 6.8,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 7.1,
+                    "gusts": 27.0,
+                    "dir": "ENE",
+                    "angle": 76
+                },
+                "cloud_cover": 98,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 356.18,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 14.04
+            },
+            {
+                "date": "2024-11-11T23:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 5.2,
+                "wind_chill": 6.2,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 8.1,
+                    "gusts": 25.7,
+                    "dir": "ESE",
+                    "angle": 105
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.0,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 356.85,
+                "uv_index": 0.0,
+                "humidity": 94,
+                "visibility": 12.84
+            },
+            {
+                "date": "2024-11-12T00:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 5.2,
+                "wind_chill": 6.2,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 8.0,
+                    "gusts": 27.5,
+                    "dir": "ESE",
+                    "angle": 112
+                },
+                "cloud_cover": 96,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.0,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 363.13,
+                "uv_index": 0.0,
+                "humidity": 94,
+                "visibility": 19.26
+            },
+            {
+                "date": "2024-11-12T01:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 8.0,
+                    "gusts": 28.3,
+                    "dir": "SE",
+                    "angle": 131
+                },
+                "cloud_cover": 98,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 360.99,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 12.49
+            },
+            {
+                "date": "2024-11-12T02:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 8.2,
+                    "gusts": 31.1,
+                    "dir": "SE",
+                    "angle": 141
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 360.07,
+                "uv_index": 0.0,
+                "humidity": 91,
+                "visibility": 8.22
+            },
+            {
+                "date": "2024-11-12T03:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 6.0,
+                "wind_chill": 6.5,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 7.9,
+                    "gusts": 30.0,
+                    "dir": "SE",
+                    "angle": 142
+                },
+                "cloud_cover": 95,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 350.07,
+                "uv_index": 0.0,
+                "humidity": 95,
+                "visibility": 7.72
+            },
+            {
+                "date": "2024-11-12T04:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 6.0,
+                "wind_chill": 7.0,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 6.2,
+                    "gusts": 25.6,
+                    "dir": "SE",
+                    "angle": 140
+                },
+                "cloud_cover": 90,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 339.51,
+                "uv_index": 0.0,
+                "humidity": 95,
+                "visibility": 8.64
+            },
+            {
+                "date": "2024-11-12T05:00:00",
+                "weather": "rain_shower",
+                "icon": 32,
+                "summary": "Rain shower",
+                "temperature": 7.5,
+                "feels_like": 6.2,
+                "wind_chill": 6.8,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 4.6,
+                    "gusts": 18.8,
+                    "dir": "SE",
+                    "angle": 137
+                },
+                "cloud_cover": 87,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 70,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 333.2,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 6.07
+            },
+            {
+                "date": "2024-11-12T06:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 7.5,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 7.2,
+                "wind": {
+                    "speed": 5.0,
+                    "gusts": 13.9,
+                    "dir": "E",
+                    "angle": 93
+                },
+                "cloud_cover": 99,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 46,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 328.08,
+                "uv_index": 0.0,
+                "humidity": 98,
+                "visibility": 2.73
+            },
+            {
+                "date": "2024-11-12T07:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 7.2,
+                "feels_like": 5.5,
+                "wind_chill": 6.5,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 4.3,
+                    "gusts": 11.3,
+                    "dir": "SE",
+                    "angle": 128
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 39,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 330.78,
+                "uv_index": 0.0,
+                "humidity": 98,
+                "visibility": 2.57
+            },
+            {
+                "date": "2024-11-12T08:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 7.2,
+                "feels_like": 5.5,
+                "wind_chill": 6.0,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 4.8,
+                    "gusts": 12.3,
+                    "dir": "ESE",
+                    "angle": 120
+                },
+                "cloud_cover": 93,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 43,
+                    "storm": 0.0,
+                    "freeze": 10
+                },
+                "ozone": 332.21,
+                "uv_index": 0.0,
+                "humidity": 94,
+                "visibility": 2.59
+            },
+            {
+                "date": "2024-11-12T09:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 8.0,
+                "feels_like": 6.5,
+                "wind_chill": 7.0,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 5.5,
+                    "gusts": 14.3,
+                    "dir": "SE",
+                    "angle": 139
+                },
+                "cloud_cover": 96,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.2,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 56,
+                    "storm": 0.0,
+                    "freeze": 6
+                },
+                "ozone": 327.23,
+                "uv_index": 0.17,
+                "humidity": 93,
+                "visibility": 15.23
+            },
+            {
+                "date": "2024-11-12T10:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.8,
+                "feels_like": 6.8,
+                "wind_chill": 7.8,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 7.2,
+                    "gusts": 19.2,
+                    "dir": "SSE",
+                    "angle": 164
+                },
+                "cloud_cover": 95,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 79,
+                    "storm": 0.0,
+                    "freeze": 2
+                },
+                "ozone": 323.44,
+                "uv_index": 0.31,
+                "humidity": 87,
+                "visibility": 23.63
+            },
+            {
+                "date": "2024-11-12T11:00:00",
+                "weather": "rain_shower",
+                "icon": 13,
+                "summary": "Rain shower",
+                "temperature": 9.2,
+                "feels_like": 7.2,
+                "wind_chill": 7.8,
+                "dew_point": 5.8,
+                "wind": {
+                    "speed": 9.1,
+                    "gusts": 23.1,
+                    "dir": "SSE",
+                    "angle": 164
+                },
+                "cloud_cover": 76,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.0,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 92,
+                    "storm": 0.0,
+                    "freeze": 1
+                },
+                "ozone": 325.1,
+                "uv_index": 0.77,
+                "humidity": 78,
+                "visibility": 12.16
+            },
+            {
+                "date": "2024-11-12T12:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 9.2,
+                "feels_like": 7.2,
+                "wind_chill": 6.8,
+                "dew_point": 6.0,
+                "wind": {
+                    "speed": 10.6,
+                    "gusts": 25.2,
+                    "dir": "S",
+                    "angle": 180
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.0,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 94,
+                    "storm": 0.0,
+                    "freeze": 0.0
+                },
+                "ozone": 324.9,
+                "uv_index": 0.99,
+                "humidity": 80,
+                "visibility": 11.8
+            },
+            {
+                "date": "2024-11-12T13:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 8.8,
+                "feels_like": 5.8,
+                "wind_chill": 6.8,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 9.5,
+                    "gusts": 24.0,
+                    "dir": "S",
+                    "angle": 170
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 81,
+                    "storm": 0.0,
+                    "freeze": 1
+                },
+                "ozone": 326.55,
+                "uv_index": 0.41,
+                "humidity": 87,
+                "visibility": 13.44
+            },
+            {
+                "date": "2024-11-12T14:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 8.8,
+                "feels_like": 6.5,
+                "wind_chill": 7.5,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 8.5,
+                    "gusts": 23.7,
+                    "dir": "SSE",
+                    "angle": 161
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 73,
+                    "storm": 0.0,
+                    "freeze": 1
+                },
+                "ozone": 327.39,
+                "uv_index": 0.21,
+                "humidity": 84,
+                "visibility": 19.27
+            },
+            {
+                "date": "2024-11-12T15:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 9.0,
+                "feels_like": 6.5,
+                "wind_chill": 7.5,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 9.0,
+                    "gusts": 25.2,
+                    "dir": "SE",
+                    "angle": 124
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 68,
+                    "storm": 0.0,
+                    "freeze": 0.0
+                },
+                "ozone": 326.21,
+                "uv_index": 0.18,
+                "humidity": 82,
+                "visibility": 17.83
+            },
+            {
+                "date": "2024-11-12T16:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 8.8,
+                "feels_like": 7.0,
+                "wind_chill": 7.5,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 9.4,
+                    "gusts": 24.7,
+                    "dir": "E",
+                    "angle": 84
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.5,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 72,
+                    "storm": 0.0,
+                    "freeze": 1
+                },
+                "ozone": 324.88,
+                "uv_index": 0.07,
+                "humidity": 84,
+                "visibility": 23.59
+            },
+            {
+                "date": "2024-11-12T17:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.2,
+                "feels_like": 6.0,
+                "wind_chill": 6.5,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 11.3,
+                    "gusts": 29.0,
+                    "dir": "ENE",
+                    "angle": 66
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 91,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 322.47,
+                "uv_index": 0.0,
+                "humidity": 87,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-12T18:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.2,
+                "feels_like": 5.8,
+                "wind_chill": 6.8,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 11.9,
+                    "gusts": 30.5,
+                    "dir": "ENE",
+                    "angle": 70
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.9,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 321.58,
+                "uv_index": 0.0,
+                "humidity": 88,
+                "visibility": 14.34
+            },
+            {
+                "date": "2024-11-12T19:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 6.0,
+                "wind_chill": 6.0,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 13.9,
+                    "gusts": 34.5,
+                    "dir": "ENE",
+                    "angle": 68
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 321.32,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 16.07
+            },
+            {
+                "date": "2024-11-12T20:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 5.0,
+                "wind_chill": 6.0,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 15.8,
+                    "gusts": 38.4,
+                    "dir": "ENE",
+                    "angle": 71
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 321.92,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 14.14
+            },
+            {
+                "date": "2024-11-12T21:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 5.0,
+                "wind_chill": 5.5,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 19.4,
+                    "gusts": 50.3,
+                    "dir": "ENE",
+                    "angle": 74
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 320.77,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 9.79
+            },
+            {
+                "date": "2024-11-12T22:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 5.0,
+                "wind_chill": 6.0,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 20.0,
+                    "gusts": 49.2,
+                    "dir": "ENE",
+                    "angle": 74
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.0,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 321.72,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 7.77
+            },
+            {
+                "date": "2024-11-12T23:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 5.2,
+                "wind_chill": 5.2,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 17.2,
+                    "gusts": 47.9,
+                    "dir": "ENE",
+                    "angle": 76
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 3.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 318.62,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 8.96
+            },
+            {
+                "date": "2024-11-13T00:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 4.8,
+                "wind_chill": 5.8,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 15.2,
+                    "gusts": 46.4,
+                    "dir": "ENE",
+                    "angle": 64
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 4.2,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 317.63,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 3.66
+            },
+            {
+                "date": "2024-11-13T01:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.2,
+                "feels_like": 4.5,
+                "wind_chill": 5.0,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 17.1,
+                    "gusts": 48.3,
+                    "dir": "NE",
+                    "angle": 54
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 318.48,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 3.93
+            },
+            {
+                "date": "2024-11-13T02:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.0,
+                "feels_like": 4.5,
+                "wind_chill": 4.5,
+                "dew_point": 6.0,
+                "wind": {
+                    "speed": 14.5,
+                    "gusts": 47.5,
+                    "dir": "NE",
+                    "angle": 51
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.9,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 11
+                },
+                "ozone": 320.36,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 5.14
+            },
+            {
+                "date": "2024-11-13T03:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.2,
+                "feels_like": 4.2,
+                "wind_chill": 5.2,
+                "dew_point": 6.0,
+                "wind": {
+                    "speed": 13.0,
+                    "gusts": 36.7,
+                    "dir": "NE",
+                    "angle": 52
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 322.7,
+                "uv_index": 0.0,
+                "humidity": 91,
+                "visibility": 8.38
+            },
+            {
+                "date": "2024-11-13T04:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.2,
+                "feels_like": 5.0,
+                "wind_chill": 5.0,
+                "dew_point": 6.0,
+                "wind": {
+                    "speed": 12.1,
+                    "gusts": 33.4,
+                    "dir": "NE",
+                    "angle": 46
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.9,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 326.11,
+                "uv_index": 0.0,
+                "humidity": 91,
+                "visibility": 6.8
+            },
+            {
+                "date": "2024-11-13T05:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.2,
+                "feels_like": 4.8,
+                "wind_chill": 5.2,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 12.2,
+                    "gusts": 33.7,
+                    "dir": "NE",
+                    "angle": 55
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.2,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 330.51,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 4.35
+            },
+            {
+                "date": "2024-11-13T06:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.2,
+                "feels_like": 4.2,
+                "wind_chill": 5.2,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 12.2,
+                    "gusts": 32.0,
+                    "dir": "ENE",
+                    "angle": 62
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 334.0,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 13.99
+            },
+            {
+                "date": "2024-11-13T07:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 4.2,
+                "wind_chill": 4.8,
+                "dew_point": 6.0,
+                "wind": {
+                    "speed": 12.8,
+                    "gusts": 30.3,
+                    "dir": "ENE",
+                    "angle": 67
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.1,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 336.14,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.04
+            },
+            {
+                "date": "2024-11-13T08:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 5.0,
+                "wind_chill": 5.5,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 10.7,
+                    "gusts": 30.0,
+                    "dir": "ENE",
+                    "angle": 76
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 335.83,
+                "uv_index": 0.0,
+                "humidity": 91,
+                "visibility": 10.27
+            },
+            {
+                "date": "2024-11-13T09:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 7.5,
+                "feels_like": 4.5,
+                "wind_chill": 5.5,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 10.5,
+                    "gusts": 27.0,
+                    "dir": "E",
+                    "angle": 86
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.5,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 336.94,
+                "uv_index": 0.02,
+                "humidity": 91,
+                "visibility": 5.83
+            },
+            {
+                "date": "2024-11-13T10:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 7.8,
+                "feels_like": 6.5,
+                "wind_chill": 7.5,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.4,
+                    "gusts": 27.0,
+                    "dir": "ENE",
+                    "angle": 69
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.2,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 341.1,
+                "uv_index": 0.02,
+                "humidity": 95,
+                "visibility": 7.27
+            },
+            {
+                "date": "2024-11-13T11:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 6.2,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 9.7,
+                    "gusts": 26.8,
+                    "dir": "E",
+                    "angle": 80
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.1,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 347.1,
+                "uv_index": 0.08,
+                "humidity": 93,
+                "visibility": 23.53
+            },
+            {
+                "date": "2024-11-13T12:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.2,
+                "feels_like": 6.0,
+                "wind_chill": 7.0,
+                "dew_point": 7.2,
+                "wind": {
+                    "speed": 9.1,
+                    "gusts": 25.9,
+                    "dir": "ESE",
+                    "angle": 108
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 347.26,
+                "uv_index": 0.09,
+                "humidity": 93,
+                "visibility": 17.71
+            },
+            {
+                "date": "2024-11-13T13:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.2,
+                "feels_like": 6.2,
+                "wind_chill": 7.2,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 8.0,
+                    "gusts": 23.1,
+                    "dir": "ESE",
+                    "angle": 102
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 349.07,
+                "uv_index": 0.08,
+                "humidity": 95,
+                "visibility": 9.87
+            },
+            {
+                "date": "2024-11-13T14:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 6.5,
+                "wind_chill": 7.0,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 7.7,
+                    "gusts": 22.2,
+                    "dir": "E",
+                    "angle": 86
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 362.93,
+                "uv_index": 0.04,
+                "humidity": 96,
+                "visibility": 9.07
+            },
+            {
+                "date": "2024-11-13T15:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 9.7,
+                    "gusts": 25.7,
+                    "dir": "ENE",
+                    "angle": 72
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 370.04,
+                "uv_index": 0.02,
+                "humidity": 93,
+                "visibility": 19.47
+            },
+            {
+                "date": "2024-11-13T16:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 6.2,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.8,
+                    "gusts": 26.2,
+                    "dir": "E",
+                    "angle": 84
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.5,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 376.2,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 7.56
+            },
+            {
+                "date": "2024-11-13T17:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.2,
+                "feels_like": 6.0,
+                "wind_chill": 7.0,
+                "dew_point": 7.2,
+                "wind": {
+                    "speed": 8.4,
+                    "gusts": 23.3,
+                    "dir": "ENE",
+                    "angle": 73
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.5,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 382.8,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 20.54
+            },
+            {
+                "date": "2024-11-13T18:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.2,
+                "feels_like": 6.2,
+                "wind_chill": 6.8,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.2,
+                    "gusts": 22.6,
+                    "dir": "ESE",
+                    "angle": 103
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.0,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 389.7,
+                "uv_index": 0.0,
+                "humidity": 91,
+                "visibility": 10.49
+            },
+            {
+                "date": "2024-11-13T19:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 5.2,
+                "wind_chill": 6.2,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 9.4,
+                    "gusts": 22.0,
+                    "dir": "E",
+                    "angle": 91
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.2,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 392.75,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 10.26
+            },
+            {
+                "date": "2024-11-13T20:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 9.5,
+                    "gusts": 22.2,
+                    "dir": "ESE",
+                    "angle": 101
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 388.68,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 8.62
+            },
+            {
+                "date": "2024-11-13T21:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.2,
+                "feels_like": 6.0,
+                "wind_chill": 6.5,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 8.6,
+                    "gusts": 21.8,
+                    "dir": "ESE",
+                    "angle": 107
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 4
+                },
+                "ozone": 386.7,
+                "uv_index": 0.0,
+                "humidity": 95,
+                "visibility": 7.62
+            },
+            {
+                "date": "2024-11-13T22:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 6.2,
+                "dew_point": 7.8,
+                "wind": {
+                    "speed": 8.2,
+                    "gusts": 21.3,
+                    "dir": "E",
+                    "angle": 101
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 386.1,
+                "uv_index": 0.0,
+                "humidity": 98,
+                "visibility": 4.32
+            },
+            {
+                "date": "2024-11-13T23:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 7.2,
+                "dew_point": 7.8,
+                "wind": {
+                    "speed": 6.6,
+                    "gusts": 22.6,
+                    "dir": "SE",
+                    "angle": 132
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 2.1,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 386.01,
+                "uv_index": 0.0,
+                "humidity": 98,
+                "visibility": 3.01
+            },
+            {
+                "date": "2024-11-14T00:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 7.2,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 7.6,
+                    "gusts": 21.3,
+                    "dir": "ENE",
+                    "angle": 59
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 386.99,
+                "uv_index": 0.0,
+                "humidity": 96,
+                "visibility": 8.57
+            },
+            {
+                "date": "2024-11-14T01:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 6.2,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.4,
+                    "gusts": 30.7,
+                    "dir": "ENE",
+                    "angle": 72
+                },
+                "cloud_cover": 100,
+                "pressure": 100,
+                "precipitation": {
+                    "total": 1.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 386.12,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 21.52
+            },
+            {
+                "date": "2024-11-14T02:00:00",
+                "weather": "tstorm",
+                "icon": 14,
+                "summary": "Thunderstorm",
+                "temperature": 8.0,
+                "feels_like": 6.2,
+                "wind_chill": 6.8,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.9,
+                    "gusts": 30.6,
+                    "dir": "ESE",
+                    "angle": 117
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 5
+                },
+                "ozone": 385.16,
+                "uv_index": 0.0,
+                "humidity": 93,
+                "visibility": 7.34
+            },
+            {
+                "date": "2024-11-14T03:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.3,
+                    "gusts": 29.5,
+                    "dir": "E",
+                    "angle": 87
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.9,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 386.91,
+                "uv_index": 0.0,
+                "humidity": 95,
+                "visibility": 9.35
+            },
+            {
+                "date": "2024-11-14T04:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 6.5,
+                "wind_chill": 8.5,
+                "dew_point": 7.5,
+                "wind": {
+                    "speed": 8.5,
+                    "gusts": 30.2,
+                    "dir": "E",
+                    "angle": 90
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 387.9,
+                "uv_index": 0.0,
+                "humidity": 98,
+                "visibility": 4.97
+            },
+            {
+                "date": "2024-11-14T05:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 5.5,
+                "wind_chill": 6.5,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 9.9,
+                    "gusts": 26.6,
+                    "dir": "NE",
+                    "angle": 55
+                },
+                "cloud_cover": 99,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 385.67,
+                "uv_index": 0.0,
+                "humidity": 95,
+                "visibility": 16.93
+            },
+            {
+                "date": "2024-11-14T06:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 6.2,
+                "wind_chill": 6.2,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 8.8,
+                    "gusts": 24.6,
+                    "dir": "ESE",
+                    "angle": 102
+                },
+                "cloud_cover": 95,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.5,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 386.02,
+                "uv_index": 0.0,
+                "humidity": 95,
+                "visibility": 4.9
+            },
+            {
+                "date": "2024-11-14T07:00:00",
+                "weather": "rain_shower",
+                "icon": 13,
+                "summary": "Rain shower",
+                "temperature": 7.2,
+                "feels_like": 4.8,
+                "wind_chill": 4.8,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 6.6,
+                    "gusts": 22.1,
+                    "dir": "ENE",
+                    "angle": 76
+                },
+                "cloud_cover": 89,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 91,
+                    "storm": 0.0,
+                    "freeze": 10
+                },
+                "ozone": 392.3,
+                "uv_index": 0.0,
+                "humidity": 94,
+                "visibility": 10.8
+            },
+            {
+                "date": "2024-11-14T08:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 5,
+                "summary": "Mostly cloudy",
+                "temperature": 7.2,
+                "feels_like": 5.0,
+                "wind_chill": 5.5,
+                "dew_point": 5.8,
+                "wind": {
+                    "speed": 4.8,
+                    "gusts": 13.8,
+                    "dir": "ENE",
+                    "angle": 60
+                },
+                "cloud_cover": 69,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 66,
+                    "storm": 0.0,
+                    "freeze": 12
+                },
+                "ozone": 394.23,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-14T09:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 7.5,
+                "feels_like": 5.5,
+                "wind_chill": 6.0,
+                "dew_point": 5.5,
+                "wind": {
+                    "speed": 4.8,
+                    "gusts": 10.6,
+                    "dir": "NE",
+                    "angle": 54
+                },
+                "cloud_cover": 90,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 92,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 392.52,
+                "uv_index": 0.04,
+                "humidity": 87,
+                "visibility": 23.94
+            },
+            {
+                "date": "2024-11-14T10:00:00",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Possible rain",
+                "temperature": 7.5,
+                "feels_like": 5.8,
+                "wind_chill": 6.2,
+                "dew_point": 6.2,
+                "wind": {
+                    "speed": 5.4,
+                    "gusts": 13.5,
+                    "dir": "E",
+                    "angle": 86
+                },
+                "cloud_cover": 87,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 391.34,
+                "uv_index": 0.04,
+                "humidity": 91,
+                "visibility": 11.53
+            },
+            {
+                "date": "2024-11-14T11:00:00",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Possible rain",
+                "temperature": 7.8,
+                "feels_like": 5.8,
+                "wind_chill": 6.8,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 4.6,
+                    "gusts": 14.6,
+                    "dir": "E",
+                    "angle": 79
+                },
+                "cloud_cover": 84,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 389.9,
+                "uv_index": 0.08,
+                "humidity": 93,
+                "visibility": 11.28
+            },
+            {
+                "date": "2024-11-14T12:00:00",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Possible rain",
+                "temperature": 8.0,
+                "feels_like": 6.5,
+                "wind_chill": 8.0,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 3.8,
+                    "gusts": 15.6,
+                    "dir": "ENE",
+                    "angle": 69
+                },
+                "cloud_cover": 82,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 388.1,
+                "uv_index": 0.11,
+                "humidity": 91,
+                "visibility": 11.02
+            },
+            {
+                "date": "2024-11-14T13:00:00",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Possible rain",
+                "temperature": 8.0,
+                "feels_like": 5.8,
+                "wind_chill": 6.8,
+                "dew_point": 7.0,
+                "wind": {
+                    "speed": 4.2,
+                    "gusts": 16.6,
+                    "dir": "ENE",
+                    "angle": 73
+                },
+                "cloud_cover": 90,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 6
+                },
+                "ozone": 386.43,
+                "uv_index": 0.08,
+                "humidity": 93,
+                "visibility": 10.0
+            },
+            {
+                "date": "2024-11-14T14:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.8,
+                "feels_like": 5.8,
+                "wind_chill": 5.8,
+                "dew_point": 6.8,
+                "wind": {
+                    "speed": 4.8,
+                    "gusts": 17.5,
+                    "dir": "E",
+                    "angle": 86
+                },
+                "cloud_cover": 95,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 1.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 388.5,
+                "uv_index": 0.06,
+                "humidity": 93,
+                "visibility": 5.85
+            },
+            {
+                "date": "2024-11-14T15:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 7.5,
+                "feels_like": 5.5,
+                "wind_chill": 6.0,
+                "dew_point": 6.5,
+                "wind": {
+                    "speed": 5.4,
+                    "gusts": 18.4,
+                    "dir": "ENE",
+                    "angle": 72
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.8,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 89,
+                    "storm": 0.0,
+                    "freeze": 8
+                },
+                "ozone": 394.7,
+                "uv_index": 0.02,
+                "humidity": 93,
+                "visibility": 7.54
+            },
+            {
+                "date": "2024-11-14T16:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 7.2,
+                "feels_like": 5.0,
+                "wind_chill": 6.0,
+                "dew_point": 6.0,
+                "wind": {
+                    "speed": 6.5,
+                    "gusts": 19.2,
+                    "dir": "NE",
+                    "angle": 52
+                },
+                "cloud_cover": 97,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 64,
+                    "storm": 0.0,
+                    "freeze": 10
+                },
+                "ozone": 397.41,
+                "uv_index": 0.0,
+                "humidity": 91,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-14T17:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 7.0,
+                "feels_like": 5.2,
+                "wind_chill": 5.8,
+                "dew_point": 5.5,
+                "wind": {
+                    "speed": 5.9,
+                    "gusts": 17.0,
+                    "dir": "NE",
+                    "angle": 47
+                },
+                "cloud_cover": 93,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 51,
+                    "storm": 0.0,
+                    "freeze": 12
+                },
+                "ozone": 401.02,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-14T18:00:00",
+                "weather": "cloudy",
+                "icon": 30,
+                "summary": "Cloudy",
+                "temperature": 6.8,
+                "feels_like": 4.5,
+                "wind_chill": 5.5,
+                "dew_point": 5.2,
+                "wind": {
+                    "speed": 5.3,
+                    "gusts": 14.9,
+                    "dir": "NE",
+                    "angle": 49
+                },
+                "cloud_cover": 89,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 44,
+                    "storm": 0.0,
+                    "freeze": 13
+                },
+                "ozone": 403.36,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-14T19:00:00",
+                "weather": "cloudy",
+                "icon": 30,
+                "summary": "Cloudy",
+                "temperature": 6.8,
+                "feels_like": 4.8,
+                "wind_chill": 5.8,
+                "dew_point": 5.0,
+                "wind": {
+                    "speed": 4.8,
+                    "gusts": 12.7,
+                    "dir": "NE",
+                    "angle": 49
+                },
+                "cloud_cover": 89,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 44,
+                    "storm": 0.0,
+                    "freeze": 13
+                },
+                "ozone": 393.6,
+                "uv_index": 0.0,
+                "humidity": 88,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-14T20:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.8,
+                "feels_like": 5.2,
+                "wind_chill": 6.2,
+                "dew_point": 5.2,
+                "wind": {
+                    "speed": 4.7,
+                    "gusts": 12.0,
+                    "dir": "NE",
+                    "angle": 53
+                },
+                "cloud_cover": 90,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 44,
+                    "storm": 0.0,
+                    "freeze": 13
+                },
+                "ozone": 382.81,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-14T21:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.5,
+                "feels_like": 4.5,
+                "wind_chill": 5.5,
+                "dew_point": 4.8,
+                "wind": {
+                    "speed": 4.7,
+                    "gusts": 11.3,
+                    "dir": "NE",
+                    "angle": 55
+                },
+                "cloud_cover": 91,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 38,
+                    "storm": 0.0,
+                    "freeze": 14
+                },
+                "ozone": 376.52,
+                "uv_index": 0.0,
+                "humidity": 88,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-14T22:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.5,
+                "feels_like": 5.0,
+                "wind_chill": 6.0,
+                "dew_point": 5.0,
+                "wind": {
+                    "speed": 4.7,
+                    "gusts": 10.6,
+                    "dir": "ENE",
+                    "angle": 61
+                },
+                "cloud_cover": 93,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 39,
+                    "storm": 0.0,
+                    "freeze": 14
+                },
+                "ozone": 376.46,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-14T23:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.8,
+                "feels_like": 5.0,
+                "wind_chill": 6.0,
+                "dew_point": 5.2,
+                "wind": {
+                    "speed": 4.6,
+                    "gusts": 10.3,
+                    "dir": "ENE",
+                    "angle": 64
+                },
+                "cloud_cover": 94,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 40,
+                    "storm": 0.0,
+                    "freeze": 13
+                },
+                "ozone": 376.08,
+                "uv_index": 0.0,
+                "humidity": 90,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T00:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.8,
+                "feels_like": 4.8,
+                "wind_chill": 5.8,
+                "dew_point": 5.0,
+                "wind": {
+                    "speed": 4.5,
+                    "gusts": 10.0,
+                    "dir": "ENE",
+                    "angle": 58
+                },
+                "cloud_cover": 96,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 36,
+                    "storm": 0.0,
+                    "freeze": 13
+                },
+                "ozone": 375.31,
+                "uv_index": 0.0,
+                "humidity": 88,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T01:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.8,
+                "feels_like": 4.8,
+                "wind_chill": 5.8,
+                "dew_point": 4.8,
+                "wind": {
+                    "speed": 4.4,
+                    "gusts": 9.7,
+                    "dir": "NE",
+                    "angle": 40
+                },
+                "cloud_cover": 95,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 38,
+                    "storm": 0.0,
+                    "freeze": 13
+                },
+                "ozone": 376.2,
+                "uv_index": 0.0,
+                "humidity": 87,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T02:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.5,
+                "feels_like": 4.5,
+                "wind_chill": 6.0,
+                "dew_point": 4.2,
+                "wind": {
+                    "speed": 4.1,
+                    "gusts": 9.0,
+                    "dir": "NNE",
+                    "angle": 25
+                },
+                "cloud_cover": 94,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 38,
+                    "storm": 0.0,
+                    "freeze": 14
+                },
+                "ozone": 382.02,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T03:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 6.0,
+                "feels_like": 3.5,
+                "wind_chill": 5.0,
+                "dew_point": 3.5,
+                "wind": {
+                    "speed": 3.7,
+                    "gusts": 8.3,
+                    "dir": "NNE",
+                    "angle": 32
+                },
+                "cloud_cover": 95,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 37,
+                    "storm": 0.0,
+                    "freeze": 17
+                },
+                "ozone": 390.62,
+                "uv_index": 0.0,
+                "humidity": 83,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T04:00:00",
+                "weather": "cloudy",
+                "icon": 30,
+                "summary": "Cloudy",
+                "temperature": 5.8,
+                "feels_like": 4.0,
+                "wind_chill": 5.0,
+                "dew_point": 3.5,
+                "wind": {
+                    "speed": 3.4,
+                    "gusts": 7.6,
+                    "dir": "NE",
+                    "angle": 43
+                },
+                "cloud_cover": 89,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 35,
+                    "storm": 0.0,
+                    "freeze": 19
+                },
+                "ozone": 392.5,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T05:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 29,
+                "summary": "Mostly cloudy",
+                "temperature": 5.5,
+                "feels_like": 3.5,
+                "wind_chill": 5.0,
+                "dew_point": 3.2,
+                "wind": {
+                    "speed": 3.4,
+                    "gusts": 7.4,
+                    "dir": "NE",
+                    "angle": 45
+                },
+                "cloud_cover": 70,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 34,
+                    "storm": 0.0,
+                    "freeze": 22
+                },
+                "ozone": 390.44,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T06:00:00",
+                "weather": "partly_clear",
+                "icon": 28,
+                "summary": "Partly clear",
+                "temperature": 5.2,
+                "feels_like": 5.0,
+                "wind_chill": 5.0,
+                "dew_point": 3.0,
+                "wind": {
+                    "speed": 3.4,
+                    "gusts": 7.2,
+                    "dir": "NE",
+                    "angle": 36
+                },
+                "cloud_cover": 63,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 32,
+                    "storm": 0.0,
+                    "freeze": 24
+                },
+                "ozone": 393.44,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T07:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 5.0,
+                "feels_like": 4.8,
+                "wind_chill": 4.2,
+                "dew_point": 2.5,
+                "wind": {
+                    "speed": 3.5,
+                    "gusts": 7.0,
+                    "dir": "NNE",
+                    "angle": 31
+                },
+                "cloud_cover": 64,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 33,
+                    "storm": 0.0,
+                    "freeze": 26
+                },
+                "ozone": 397.0,
+                "uv_index": 0.0,
+                "humidity": 83,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T08:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 5.0,
+                "feels_like": 4.8,
+                "wind_chill": 4.2,
+                "dew_point": 2.2,
+                "wind": {
+                    "speed": 3.5,
+                    "gusts": 7.4,
+                    "dir": "NE",
+                    "angle": 37
+                },
+                "cloud_cover": 64,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 33,
+                    "storm": 0.0,
+                    "freeze": 26
+                },
+                "ozone": 400.9,
+                "uv_index": 0.0,
+                "humidity": 82,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T09:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 6.0,
+                "feels_like": 6.2,
+                "wind_chill": 5.8,
+                "dew_point": 2.5,
+                "wind": {
+                    "speed": 3.1,
+                    "gusts": 7.9,
+                    "dir": "NE",
+                    "angle": 45
+                },
+                "cloud_cover": 60,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 34,
+                    "storm": 0.0,
+                    "freeze": 20
+                },
+                "ozone": 402.03,
+                "uv_index": 0.19,
+                "humidity": 78,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T10:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 5,
+                "summary": "Mostly cloudy",
+                "temperature": 6.8,
+                "feels_like": 7.2,
+                "wind_chill": 7.8,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 2.5,
+                    "gusts": 8.4,
+                    "dir": "E",
+                    "angle": 101
+                },
+                "cloud_cover": 66,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 33,
+                    "storm": 0.0,
+                    "freeze": 16
+                },
+                "ozone": 395.3,
+                "uv_index": 0.43,
+                "humidity": 71,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T11:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 7.5,
+                "feels_like": 8.2,
+                "wind_chill": 8.2,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 2.2,
+                    "gusts": 7.6,
+                    "dir": "SSE",
+                    "angle": 160
+                },
+                "cloud_cover": 63,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 33,
+                    "storm": 0.0,
+                    "freeze": 12
+                },
+                "ozone": 389.1,
+                "uv_index": 0.68,
+                "humidity": 68,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T12:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 8.0,
+                "feels_like": 8.5,
+                "wind_chill": 8.5,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 2.4,
+                    "gusts": 6.7,
+                    "dir": "SW",
+                    "angle": 220
+                },
+                "cloud_cover": 60,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 33,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 383.2,
+                "uv_index": 0.83,
+                "humidity": 65,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T13:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 8.5,
+                "feels_like": 8.2,
+                "wind_chill": 8.2,
+                "dew_point": 2.5,
+                "wind": {
+                    "speed": 2.9,
+                    "gusts": 5.9,
+                    "dir": "WSW",
+                    "angle": 243
+                },
+                "cloud_cover": 54,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 26,
+                    "storm": 0.0,
+                    "freeze": 7
+                },
+                "ozone": 375.3,
+                "uv_index": 0.78,
+                "humidity": 65,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T14:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 8.2,
+                "feels_like": 8.2,
+                "wind_chill": 7.8,
+                "dew_point": 2.2,
+                "wind": {
+                    "speed": 3.2,
+                    "gusts": 6.2,
+                    "dir": "WSW",
+                    "angle": 245
+                },
+                "cloud_cover": 43,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 20,
+                    "storm": 0.0,
+                    "freeze": 9
+                },
+                "ozone": 370.7,
+                "uv_index": 0.58,
+                "humidity": 65,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T15:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 8.0,
+                "feels_like": 7.8,
+                "wind_chill": 7.8,
+                "dew_point": 3.2,
+                "wind": {
+                    "speed": 3.4,
+                    "gusts": 6.6,
+                    "dir": "WSW",
+                    "angle": 242
+                },
+                "cloud_cover": 33,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 8,
+                    "storm": 0.0,
+                    "freeze": 12
+                },
+                "ozone": 360.9,
+                "uv_index": 0.31,
+                "humidity": 71,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-15T16:00:00",
+                "weather": "partly_sunny",
+                "icon": 4,
+                "summary": "Partly sunny",
+                "temperature": 7.2,
+                "feels_like": 7.5,
+                "wind_chill": 7.5,
+                "dew_point": 4.0,
+                "wind": {
+                    "speed": 2.8,
+                    "gusts": 6.9,
+                    "dir": "WSW",
+                    "angle": 258
+                },
+                "cloud_cover": 49,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 9,
+                    "storm": 0.0,
+                    "freeze": 15
+                },
+                "ozone": 355.53,
+                "uv_index": 0.0,
+                "humidity": 79,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T17:00:00",
+                "weather": "partly_clear",
+                "icon": 28,
+                "summary": "Partly clear",
+                "temperature": 6.2,
+                "feels_like": 6.8,
+                "wind_chill": 6.8,
+                "dew_point": 3.8,
+                "wind": {
+                    "speed": 2.7,
+                    "gusts": 7.4,
+                    "dir": "NNE",
+                    "angle": 16
+                },
+                "cloud_cover": 61,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 8,
+                    "storm": 0.0,
+                    "freeze": 19
+                },
+                "ozone": 351.6,
+                "uv_index": 0.0,
+                "humidity": 84,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T18:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 29,
+                "summary": "Mostly cloudy",
+                "temperature": 5.5,
+                "feels_like": 5.5,
+                "wind_chill": 4.5,
+                "dew_point": 3.2,
+                "wind": {
+                    "speed": 4.0,
+                    "gusts": 8.0,
+                    "dir": "NE",
+                    "angle": 44
+                },
+                "cloud_cover": 74,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 1,
+                    "storm": 0.0,
+                    "freeze": 22
+                },
+                "ozone": 348.8,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T19:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 29,
+                "summary": "Mostly cloudy",
+                "temperature": 5.0,
+                "feels_like": 4.5,
+                "wind_chill": 4.0,
+                "dew_point": 3.0,
+                "wind": {
+                    "speed": 4.7,
+                    "gusts": 8.5,
+                    "dir": "NE",
+                    "angle": 55
+                },
+                "cloud_cover": 68,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 6,
+                    "storm": 0.0,
+                    "freeze": 25
+                },
+                "ozone": 347.1,
+                "uv_index": 0.0,
+                "humidity": 86,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T20:00:00",
+                "weather": "partly_clear",
+                "icon": 28,
+                "summary": "Partly clear",
+                "temperature": 4.5,
+                "feels_like": 4.2,
+                "wind_chill": 3.2,
+                "dew_point": 2.2,
+                "wind": {
+                    "speed": 4.6,
+                    "gusts": 9.6,
+                    "dir": "NE",
+                    "angle": 50
+                },
+                "cloud_cover": 59,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 4,
+                    "storm": 0.0,
+                    "freeze": 29
+                },
+                "ozone": 347.3,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T21:00:00",
+                "weather": "partly_clear",
+                "icon": 28,
+                "summary": "Partly clear",
+                "temperature": 4.5,
+                "feels_like": 4.0,
+                "wind_chill": 3.5,
+                "dew_point": 2.2,
+                "wind": {
+                    "speed": 4.8,
+                    "gusts": 10.7,
+                    "dir": "NE",
+                    "angle": 47
+                },
+                "cloud_cover": 52,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 3,
+                    "storm": 0.0,
+                    "freeze": 30
+                },
+                "ozone": 347.4,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T22:00:00",
+                "weather": "partly_clear",
+                "icon": 28,
+                "summary": "Partly clear",
+                "temperature": 4.2,
+                "feels_like": 3.8,
+                "wind_chill": 2.8,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 5.0,
+                    "gusts": 11.8,
+                    "dir": "NE",
+                    "angle": 47
+                },
+                "cloud_cover": 57,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 7,
+                    "storm": 0.0,
+                    "freeze": 30
+                },
+                "ozone": 343.4,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-15T23:00:00",
+                "weather": "partly_clear",
+                "icon": 28,
+                "summary": "Partly clear",
+                "temperature": 4.0,
+                "feels_like": 4.0,
+                "wind_chill": 3.0,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 5.0,
+                    "gusts": 12.6,
+                    "dir": "NE",
+                    "angle": 42
+                },
+                "cloud_cover": 62,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 6,
+                    "storm": 0.0,
+                    "freeze": 31
+                },
+                "ozone": 342.1,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T00:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 29,
+                "summary": "Mostly cloudy",
+                "temperature": 4.0,
+                "feels_like": 4.0,
+                "wind_chill": 3.0,
+                "dew_point": 1.5,
+                "wind": {
+                    "speed": 5.0,
+                    "gusts": 13.3,
+                    "dir": "NNE",
+                    "angle": 27
+                },
+                "cloud_cover": 67,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 2,
+                    "storm": 0.0,
+                    "freeze": 31
+                },
+                "ozone": 340.46,
+                "uv_index": 0.0,
+                "humidity": 83,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-16T01:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 29,
+                "summary": "Mostly cloudy",
+                "temperature": 4.0,
+                "feels_like": 3.8,
+                "wind_chill": 3.2,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 5.5,
+                    "gusts": 14.1,
+                    "dir": "NE",
+                    "angle": 43
+                },
+                "cloud_cover": 68,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 10,
+                    "storm": 0.0,
+                    "freeze": 31
+                },
+                "ozone": 339.01,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T02:00:00",
+                "weather": "cloudy",
+                "icon": 30,
+                "summary": "Cloudy",
+                "temperature": 4.0,
+                "feels_like": 3.8,
+                "wind_chill": 3.2,
+                "dew_point": 1.5,
+                "wind": {
+                    "speed": 5.6,
+                    "gusts": 15.8,
+                    "dir": "NNE",
+                    "angle": 29
+                },
+                "cloud_cover": 83,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 12,
+                    "storm": 0.0,
+                    "freeze": 29
+                },
+                "ozone": 335.8,
+                "uv_index": 0.0,
+                "humidity": 83,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-16T03:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 4.0,
+                "feels_like": 3.0,
+                "wind_chill": 3.5,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 5.8,
+                    "gusts": 17.6,
+                    "dir": "NNE",
+                    "angle": 19
+                },
+                "cloud_cover": 97,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 10,
+                    "storm": 0.0,
+                    "freeze": 28
+                },
+                "ozone": 333.1,
+                "uv_index": 0.0,
+                "humidity": 85,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T04:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 4.2,
+                "feels_like": 2.5,
+                "wind_chill": 4.0,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 6.3,
+                    "gusts": 19.4,
+                    "dir": "NE",
+                    "angle": 42
+                },
+                "cloud_cover": 98,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 20,
+                    "storm": 0.0,
+                    "freeze": 26
+                },
+                "ozone": 331.96,
+                "uv_index": 0.0,
+                "humidity": 83,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-16T05:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 4.5,
+                "feels_like": 2.5,
+                "wind_chill": 4.0,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 6.7,
+                    "gusts": 19.8,
+                    "dir": "NE",
+                    "angle": 47
+                },
+                "cloud_cover": 98,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 25,
+                    "storm": 0.0,
+                    "freeze": 25
+                },
+                "ozone": 330.17,
+                "uv_index": null,
+                "humidity": 82,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-16T06:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 4.8,
+                "feels_like": 2.2,
+                "wind_chill": 4.2,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 6.8,
+                    "gusts": 20.3,
+                    "dir": "NE",
+                    "angle": 54
+                },
+                "cloud_cover": 98,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 32,
+                    "storm": 0.0,
+                    "freeze": 24
+                },
+                "ozone": 328.39,
+                "uv_index": null,
+                "humidity": 80,
+                "visibility": 24.14
+            },
+            {
+                "date": "2024-11-16T07:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 4.8,
+                "feels_like": 2.0,
+                "wind_chill": 4.0,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 6.6,
+                    "gusts": 20.7,
+                    "dir": "ENE",
+                    "angle": 62
+                },
+                "cloud_cover": 99,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 33,
+                    "storm": 0.0,
+                    "freeze": 24
+                },
+                "ozone": 326.6,
+                "uv_index": null,
+                "humidity": 80,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T08:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 5.0,
+                "feels_like": 2.2,
+                "wind_chill": 4.2,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 5.7,
+                    "gusts": 21.6,
+                    "dir": "ENE",
+                    "angle": 62
+                },
+                "cloud_cover": 99,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                },
+                "probability": {
+                    "precipitation": 45,
+                    "storm": 0.0,
+                    "freeze": 22
+                },
+                "ozone": 322.67,
+                "uv_index": null,
+                "humidity": 80,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T09:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 5.2,
+                "feels_like": 2.5,
+                "wind_chill": 4.5,
+                "dew_point": 2.2,
+                "wind": {
+                    "speed": 5.3,
+                    "gusts": 22.5,
+                    "dir": "ENE",
+                    "angle": 64
+                },
+                "cloud_cover": 100,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.3,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 60,
+                    "storm": 0.0,
+                    "freeze": 21
+                },
+                "ozone": 318.75,
+                "uv_index": null,
+                "humidity": 80,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T10:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 5.2,
+                "feels_like": 2.0,
+                "wind_chill": 4.0,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 5.9,
+                    "gusts": 23.5,
+                    "dir": "ENE",
+                    "angle": 67
+                },
+                "cloud_cover": 100,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.4,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 74,
+                    "storm": 0.0,
+                    "freeze": 21
+                },
+                "ozone": 314.82,
+                "uv_index": null,
+                "humidity": 78,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T11:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 5.5,
+                "feels_like": 3.8,
+                "wind_chill": 6.2,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 7.5,
+                    "gusts": 25.4,
+                    "dir": "E",
+                    "angle": 96
+                },
+                "cloud_cover": 100,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 88,
+                    "storm": 0.0,
+                    "freeze": 19
+                },
+                "ozone": 310.58,
+                "uv_index": null,
+                "humidity": 78,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T12:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 5.5,
+                "feels_like": 3.5,
+                "wind_chill": 6.5,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 7.7,
+                    "gusts": 27.3,
+                    "dir": "ESE",
+                    "angle": 107
+                },
+                "cloud_cover": 100,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.9,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 19
+                },
+                "ozone": 306.34,
+                "uv_index": null,
+                "humidity": 78,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T13:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 5.8,
+                "feels_like": 3.5,
+                "wind_chill": 7.0,
+                "dew_point": 2.0,
+                "wind": {
+                    "speed": 9.0,
+                    "gusts": 29.3,
+                    "dir": "ESE",
+                    "angle": 113
+                },
+                "cloud_cover": 100,
+                "pressure": 102,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 95,
+                    "storm": 0.0,
+                    "freeze": 18
+                },
+                "ozone": 302.1,
+                "uv_index": null,
+                "humidity": 76,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T14:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 5.2,
+                "feels_like": 3.2,
+                "wind_chill": 6.8,
+                "dew_point": 1.8,
+                "wind": {
+                    "speed": 8.8,
+                    "gusts": 30.4,
+                    "dir": "ESE",
+                    "angle": 104
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 94,
+                    "storm": 0.0,
+                    "freeze": 21
+                },
+                "ozone": 300.0,
+                "uv_index": null,
+                "humidity": 78,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T15:00:00",
+                "weather": "rain",
+                "icon": 11,
+                "summary": "Rain",
+                "temperature": 5.2,
+                "feels_like": 3.5,
+                "wind_chill": 7.0,
+                "dew_point": 2.2,
+                "wind": {
+                    "speed": 8.9,
+                    "gusts": 31.5,
+                    "dir": "E",
+                    "angle": 97
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.7,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 93,
+                    "storm": 0.0,
+                    "freeze": 21
+                },
+                "ozone": 297.9,
+                "uv_index": null,
+                "humidity": 80,
+                "visibility": 24.13
+            },
+            {
+                "date": "2024-11-16T16:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 5.0,
+                "feels_like": 3.8,
+                "wind_chill": 6.8,
+                "dew_point": 2.5,
+                "wind": {
+                    "speed": 9.3,
+                    "gusts": 32.7,
+                    "dir": "E",
+                    "angle": 92
+                },
+                "cloud_cover": 100,
+                "pressure": 101,
+                "precipitation": {
+                    "total": 0.6,
+                    "type": "rain"
+                },
+                "probability": {
+                    "precipitation": 93,
+                    "storm": 0.0,
+                    "freeze": 22
+                },
+                "ozone": 295.8,
+                "uv_index": null,
+                "humidity": 83,
+                "visibility": 24.13
+            }
+        ]
+    }
+}
