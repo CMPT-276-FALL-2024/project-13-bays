@@ -17,7 +17,8 @@ const mockWeatherData = {
 };
 
 const mockContextValue = {
-  units: UNITS.uk
+  units: UNITS.uk,
+  loading: false
 };
 
 describe('CurrentWeather', () => {

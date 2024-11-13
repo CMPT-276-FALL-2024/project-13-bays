@@ -37,9 +37,15 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "sass": "^1.80.6"
   },
   "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/index.js",
