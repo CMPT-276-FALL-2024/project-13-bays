@@ -34,8 +34,10 @@
 
 ## Weather Page
 
-A React weather application that displays current weather and forecasts.
+[![Weather App CI/CD](https://github.com/{username}/{repo-name}/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/{username}/{repo-name}/actions/workflows/ci-cd.yml)
 
+A React weather application that displays current weather and forecasts.
+---
 ## Features
 
 - Current weather conditions
