@@ -2,9 +2,9 @@ name: Weather App CI/CD
 
 on:
   push:
-    branches: [ weather ]
+    branches: [ main ]
   pull_request:
-    branches: [ weather ]
+    branches: [ main ]
 
 jobs:
   build-and-test:
@@ -29,11 +29,11 @@ jobs:
         
     - name: Build
       run: npm run build
+      # env:
+      #   REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
 
-    - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/weather'
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: build 
-      with:
-        folder: build 
+    # - name: Deploy to GitHub Pages
+    #   if: github.ref == 'refs/heads/main'
+    #   uses: JamesIves/github-pages-deploy-action@v4
+    #   with:
+    #     folder: build 
