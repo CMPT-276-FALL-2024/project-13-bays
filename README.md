@@ -31,3 +31,18 @@
 [`Mei`](https://github.com/meirimzh)
 [`Moc`](https://github.com/Moc01)
 [`Naut`](https://github.com/odesaur)
+
+## Weather Page
+
+A React weather application that displays current weather and forecasts.
+
+## Features
+
+- Current weather conditions
+- Hourly forecast
+- Daily forecast
+- Location search
+- Theme switching
+- Multiple measurement systems
+
+## Development
