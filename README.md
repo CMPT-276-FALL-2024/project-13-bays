@@ -35,7 +35,7 @@
 ## Weather Page
 
 A React weather application that displays current weather and forecasts.
-
+---
 ## Features
 
 - Current weather conditions
