@@ -8,7 +8,7 @@ disableImageOptimization = false
 disableTextInHeader = true
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-defaultBackgroundImage = "/screen4.png"
+defaultBackgroundImage = ""
 
 [header]
 layout = "fixed"
@@ -49,7 +49,7 @@ seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
-showReadingTime = true
+showReadingTime = false
 showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
