@@ -1,0 +1,59 @@
+baseURL: "https://examplesite.com/"
+title: SFU Toolbox
+paginate: 5
+theme: PaperMod
+
+ignoreLogs:
+  - warning-goldmark-raw-html
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  keywords: [Blog, Portfolio, PaperMod]
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  hideFooter: true
+
+  assets:
+    # disableHLJS: true
+    # favicon: "<link / abs url>"
+
+  label:
+    text: "Home"
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome to SFU Toolbox"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/CMPT-276-FALL-2024/project-13-bays/"
+
+menu:
+  main:
+    - identifier: weather
+      name: Weather
+      url: /weather/
+      weight: 10
+    - identifier: library
+      name: Library
+      url: /library/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20

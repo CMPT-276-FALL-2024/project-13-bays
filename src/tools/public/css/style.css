@@ -1,0 +1,50 @@
+.library-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.library-name {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.subname {
+    font-size: 1em;
+    color: #555;
+}
+
+.details {
+    color: #333;
+    font-size: 1em;
+}
+
+.status {
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.status.open {
+    color: #ffffff;
+    background-color: #28a745;
+}
+
+.status.closed {
+    color: #ffffff;
+    background-color: #dc3545;
+}
+
+.more-info {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.more-info:hover {
+    text-decoration: underline;
+}
