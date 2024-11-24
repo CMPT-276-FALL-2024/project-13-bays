@@ -11,8 +11,7 @@
    ''-----------''
 ```
 ### Description
-> A website that serves the main purposes of a student which are locating an available study space
-> when they need it and transiting to the campus. 
+> A website that displays SFU library and Weather information
 
 ## Group Members
 [`Egemen`](https://github.com/gmnguney)
