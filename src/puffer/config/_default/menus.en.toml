@@ -21,6 +21,11 @@ pageRef = "/library/"
 weight = 10
 
 [[main]]
+name = "Course"
+pageRef = "/course/"
+weight = 10
+
+[[main]]
 name = "About"
 pageRef = "/about/"
 weight = 20
