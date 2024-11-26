@@ -2,6 +2,7 @@ import { useContext, useState } from 'react';
 import { searchPlaces } from '../api';
 import WeatherContext from '../context/weather.context';
 import '../styles/components/Search.scss';
+// import { searchPlaces } from '../api/mockApi';
 
 function Search() {
   const { setPlace } = useContext(WeatherContext);

@@ -4,8 +4,8 @@ import {
   MEASUREMENT_SYSTEMS,
   UNITS,
 } from '../constants';
-// import { getWeatherData } from '../api';
-import { getWeatherData } from '../api/mockApi';
+import { getWeatherData } from '../api';
+// import { getWeatherData } from '../api/mockApi';
 
 const WeatherContext = createContext();
 

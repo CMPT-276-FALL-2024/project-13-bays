@@ -15,14 +15,14 @@ function DailyForecastWidget({ data }) {
 
   // date format
   const now_date = {
-    day: new Intl.DateTimeFormat(navigator.language, {
+    day: new Intl.DateTimeFormat('en-US', {
       weekday: 'short',
       day: '2-digit',
       month: '2-digit',
     }).format(new Date()),
   };
   const weather_date = {
-    day: new Intl.DateTimeFormat(navigator.language, {
+    day: new Intl.DateTimeFormat('en-US', {
       weekday: 'short',
       day: '2-digit',
       month: '2-digit',

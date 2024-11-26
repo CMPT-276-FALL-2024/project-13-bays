@@ -8,7 +8,7 @@ function HourlyForecastWidget({ data }) {
     data;
 
   // date format
-  const locale = navigator.language;
+  const locale = 'en-US';
   const now_date = {
     day: new Intl.DateTimeFormat(locale, {
       weekday: 'short',
