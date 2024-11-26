@@ -5,10 +5,10 @@ enableSearch = true
 enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
-disableTextInHeader = true
+disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-defaultBackgroundImage = ""
+defaultBackgroundImage = "/screen4.png"
 
 [header]
 layout = "fixed"
@@ -29,7 +29,7 @@ showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
 homepageImage = "/screen4.png"
-layoutBackgroundBlur = false
+layoutBackgroundBlur = true
 
 [article]
 showDate = false
@@ -38,16 +38,16 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = false
-showHero = true
+showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
-showDraftLabel = true
+showDraftLabel = false
 showEdit = false
-editAppendPath = true
+editAppendPath = false
 seriesOpened = false
-showHeadingAnchors = true
-showPagination = true
+showHeadingAnchors = false
+showPagination = false
 invertPagination = false
 showReadingTime = false
 showTableOfContents = false
@@ -67,7 +67,7 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 orderByWeight = false
-groupByYear = true
+groupByYear = false
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
@@ -76,7 +76,7 @@ constrainItemsWidth = false
 excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
-showTermCount = true
+showTermCount = false
 showHero = false
 showBreadcrumbs = false
 showViews = false
@@ -85,11 +85,11 @@ showTableOfContents = false
 cardView = false
 
 [term]
-showHero = true
+showHero = false
 showBreadcrumbs = false
 showViews = false
 showLikes = false
-showTableOfContents = true
+showTableOfContents = false
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
