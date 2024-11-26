@@ -11,7 +11,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultBackgroundImage = "/screen4.png"
 
 [header]
-layout = "fixed"
+layout = "background"
 
 [footer]
 showMenu = true
@@ -29,7 +29,7 @@ showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
 homepageImage = "/screen4.png"
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false
 
 [article]
 showDate = false
@@ -39,7 +39,7 @@ showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = false
 showHero = false
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
 showDraftLabel = false
@@ -58,7 +58,7 @@ showZenMode = false
 
 [list]
 showHero = false
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
 showSummary = false
