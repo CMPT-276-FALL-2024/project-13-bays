@@ -1,15 +1,6 @@
 +++
+description = "Fun facts about me"
 title = 'About'
 +++
 
-
-```bash
-SFU Toolbox built on Hugo
-    _____________
-   | ___ ___ ___ |
-   ||_=_|_=_|_=_||
-   ||____===____||
-   ||____===____||
-   ||____===____||
-   ''-----------''
-```
+Toolbox@Chimkin ~ $ me -h
