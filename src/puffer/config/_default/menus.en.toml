@@ -78,7 +78,7 @@ weight = 20
 #   pageRef = "tags"
 #   weight = 10
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+  name = "Boop"
+  pageRef = "/about"
+  weight = 20

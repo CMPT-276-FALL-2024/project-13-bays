@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Home &middot; SFU Toolbox</title>
-  <meta name="title" content="Home &middot; SFU Toolbox" />
+  <title>Home &middot; Home</title>
+  <meta name="title" content="Home &middot; Home" />
   
   
   
@@ -26,8 +26,10 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.4e2716d77ddb668a7c0d68157cff2048cbdf59d43ac1a9de02fd1a04ed3047a1829f54a8b18c01b94597aac05a30d1933f930e6c59382c3e25501049c92fc230.css"
-    integrity="sha512-TicW133bZop8DWgVfP8gSMvfWdQ6waneAv0aBO0wR6GCn1SosYwBuUWXqsBaMNGTP5MObFk4LD4lUBBJyS/CMA==" />
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.46959a50ba165cfba413f632415e87685a819cd5602fdc45f32625753160bf958e2c0cb6c673c1a0f9888014a62d8a47b6ba3726034f0957fb7fa4930cc17eb1.css"
+    integrity="sha512-RpWaULoWXPukE/YyQV6HaFqBnNVgL9xF8yYldTFgv5WOLAy2xnPBoPmIgBSmLYpHtro3JgNPCVf7f6STDMF&#43;sQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -65,7 +67,7 @@
   
   
   <meta property="og:url" content="http://localhost:1313/posts/home/">
-  <meta property="og:site_name" content="SFU Toolbox">
+  <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Home">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -89,7 +91,7 @@
     "url" : "http:\/\/localhost:1313\/posts\/home\/",
     "author" : {
       "@type": "Person",
-      "name": ""
+      "name": "SFU Tools"
     },
     
     
@@ -106,6 +108,12 @@
 
 
   
+  
+  <meta name="author" content="SFU Tools" />
+  
+  
+  
+  <link href="https://github.com/CMPT-276-FALL-2024/project-13-bays/" rel="me" />
   
   
   
@@ -154,14 +162,18 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">SFU Toolbox</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Home</a>
             
 
         </nav>
@@ -418,6 +430,16 @@
 
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -557,6 +579,20 @@
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/about/"
+            title="">
+            
+            Boop
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
     
   
   <div class="flex items-center justify-between">

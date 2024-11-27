@@ -1,4 +1,4 @@
-colorScheme = "blowfish"
+colorScheme = "fire"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
@@ -11,7 +11,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultBackgroundImage = "/screen4.png"
 
 [header]
-layout = "background"
+layout = "fixed"
 
 [footer]
 showMenu = true
@@ -19,6 +19,10 @@ showCopyright = false
 showThemeAttribution = false
 showAppearanceSwitcher = true
 showScrollToTop = true
+
+[about]
+title = "Toolbox"
+logo_image = "favicon.ico"
 
 [homepage]
 layout = "background"
