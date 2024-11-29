@@ -1,7 +1,6 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the puffer branch
   push:
     branches:
       - main
@@ -48,7 +47,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: |
-          cd src/puffer
+          cd src/
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
       - name: Build Hugo site
         env:
@@ -56,7 +55,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          cd src/puffer
+          cd src/
           hugo \
             --gc \
             --minify \
@@ -64,7 +63,7 @@ jobs:
       - name: Upload Hugo artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src/puffer/public
+          path: src/public
 
   # Deployment job
   deploy:
