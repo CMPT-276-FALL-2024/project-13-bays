@@ -1,4 +1,5 @@
-name: Deploy SFU Tools to Pages
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -72,11 +73,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Clean up previous deployment
-        run: |
-          git rm -r --cached --ignore-unmatch * || true
-          git clean -fd || true
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
