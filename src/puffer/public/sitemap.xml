@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/</loc>
+    <loc>//localhost:1313/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/course/</loc>
+    <loc>//localhost:1313/course/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/posts/home/</loc>
+    <loc>//localhost:1313/posts/home/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/library/</loc>
+    <loc>//localhost:1313/library/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cmpt-276-fall-2024.github.io/project-13-bays/weather/</loc>
+    <loc>//localhost:1313/weather/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
