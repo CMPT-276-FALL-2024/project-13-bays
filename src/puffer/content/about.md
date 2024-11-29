@@ -1,6 +1,5 @@
 +++
-description = "Fun facts about me"
 title = 'About'
 +++
 
-Toolbox@Chimkin ~ $ me -h
+{{< github repo="CMPT-276-FALL-2024/project-13-bays" >}}
