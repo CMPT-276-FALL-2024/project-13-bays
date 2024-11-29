@@ -1,0 +1,48 @@
+.library-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.library-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.25em;
+}
+
+.library-card p {
+    margin: 5px 0;
+}
+
+.library-card .status.open {
+    color: green;
+    font-weight: bold;
+}
+
+.library-card .status.closed {
+    color: red;
+    font-weight: bold;
+}
+
+.library-card .details {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.more-info {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.more-info:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}

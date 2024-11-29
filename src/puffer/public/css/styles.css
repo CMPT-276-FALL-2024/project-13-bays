@@ -1,0 +1,59 @@
+/* Base Styles */
+.library-card {
+    border: 1px solid;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+.library-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.25em;
+}
+
+.library-card p {
+    margin: 5px 0;
+}
+
+/* Explicit colors for open and closed statuses */
+.library-card .status.open {
+    color: #008000; /* Green */
+    font-weight: bold;
+}
+
+.library-card .status.closed {
+    color: #ff0000; /* Red */
+    font-weight: bold;
+}
+
+/* Styling for details */
+.library-card .details {
+    font-size: 0.9em;
+    color: var(--details-color);
+}
+
+/* Styling for links */
+.more-info {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.more-info:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h2 {
+    font-size: 1.5em;
+    color: var(--heading-color);
+    margin-bottom: 15px;
+}
+
+/* Remove horizontal lines under each card */
+.library-card hr {
+    display: none;
+}
