@@ -2,6 +2,6 @@
 title = 'Course'
 +++
 
-```
-Toolbox@Chimkin ~ $ load course
-```
+{{< alert >}}
+**Warning!** This page is currently under construction!
+{{< /alert >}}
