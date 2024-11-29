@@ -1,9 +1,6 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
-
-theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://cmpt-276-fall-2024.github.io/project-13-bays/"
+theme = "blowfish"
+#baseURL = "https://cmpt-276-fall-2024.github.io/project-13-bays/"
+baseURL = "/"
 
 enableRobotsTXT = true
 summaryLength = 0
