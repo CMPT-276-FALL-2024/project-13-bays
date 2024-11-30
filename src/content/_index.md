@@ -15,10 +15,6 @@
 </div>
 
 
-{{< lead >}}
-🧰
-{{< /lead >}}
-
 You can checkout the latest books in the [Library]({{< ref "/library" >}}) page.
 
 _**Sidenote:** Check out some weather cams here [Weather]({{< ref "/weather" >}})_

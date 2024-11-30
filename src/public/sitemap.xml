@@ -33,6 +33,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/project-13-bays/secret/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/project-13-bays/weather/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
