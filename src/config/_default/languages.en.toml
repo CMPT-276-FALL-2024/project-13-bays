@@ -1,4 +1,4 @@
-title = "Home"
+title = "SFU Toolbox"
 
 
 disabled = false
@@ -13,7 +13,7 @@ rtl = false
 dateFormat = "2 January 2006"
 
 [params.author]
-name = "SFU Tools"
+name = "🧰"
 headline = "A generally awesome tool"
 bio = "A little bit about me"
 links = [
