@@ -6,6 +6,4 @@ title = "Library Hours"
     <p>Loading library hours...</p>
 </div>
 
-<link rel="stylesheet" href="/css/styles.css">
-
-<script src="/js/fetchLibraryHours.js"></script>
+<script src="{{ "js/fetchLibraryHours.js" | relURL }}"></script>

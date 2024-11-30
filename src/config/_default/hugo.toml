@@ -1,7 +1,5 @@
 theme = "blowfish"
-baseURL = "https://cmpt-276-fall-2024.github.io/project-13-bays/"
-relativeURLs = true
-canonifyURLs = false
+baseURL = "https://cmpt-276-fall-2024.github.io/project-13-bays"
 
 enableRobotsTXT = true
 summaryLength = 0
