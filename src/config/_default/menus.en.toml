@@ -80,5 +80,5 @@ weight = 20
 
 [[footer]]
   name = "Boop"
-  pageRef = "/about"
+  pageRef = "/secret"
   weight = 20
