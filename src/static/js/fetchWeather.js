@@ -33,7 +33,8 @@ async function searchLocation() {
 
 async function fetchWeather() {
     try {
-        const response = await fetch(
+        // Fetch weather data
+        const weatherResponse = await fetch(
             `https://api.open-meteo.com/v1/forecast?` +
             `latitude=${currentLatitude}&longitude=${currentLongitude}` +
             `&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m` +
@@ -42,7 +43,16 @@ async function fetchWeather() {
             `&timezone=auto`
         );
         
-        const data = await response.json();
+        // Fetch air quality data
+        const airQualityResponse = await fetch(
+            `https://air-quality-api.open-meteo.com/v1/air-quality?` +
+            `latitude=${currentLatitude}&longitude=${currentLongitude}` +
+            `&current=pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,sulphur_dioxide,ozone,european_aqi` +
+            `&timezone=auto`
+        );
+
+        const weatherData = await weatherResponse.json();
+        const airData = await airQualityResponse.json();
 
         // Update location name
         document.getElementById('location').textContent = currentLocationName;
@@ -77,13 +87,13 @@ async function fetchWeather() {
 
         // Update current weather
         document.getElementById('temperature').textContent = 
-            `${Math.round(data.current.temperature_2m)}°C`;
+            `${Math.round(weatherData.current.temperature_2m)}°C`;
         document.getElementById('condition').textContent = 
-            weatherCodes[data.current.weather_code] || 'Unknown';
+            weatherCodes[weatherData.current.weather_code] || 'Unknown';
         document.getElementById('details').innerHTML = `
-            Feels like: ${Math.round(data.current.apparent_temperature)}°C<br>
-            Humidity: ${data.current.relative_humidity_2m}%<br>
-            Wind: ${Math.round(data.current.wind_speed_10m)} km/h
+            Feels like: ${Math.round(weatherData.current.apparent_temperature)}°C<br>
+            Humidity: ${weatherData.current.relative_humidity_2m}%<br>
+            Wind: ${Math.round(weatherData.current.wind_speed_10m)} km/h
         `;
 
         // Update hourly forecast
@@ -94,10 +104,10 @@ async function fetchWeather() {
             
             // Display next 24 hours
             for (let i = currentHour + 1; i < currentHour + 25; i++) {
-                const time = new Date(data.hourly.time[i]).getHours();
-                const temperature = Math.round(data.hourly.temperature_2m[i]);
-                const weatherCode = weatherCodes[data.hourly.weather_code[i]];
-                const precipProb = data.hourly.precipitation_probability[i];
+                const time = new Date(weatherData.hourly.time[i]).getHours();
+                const temperature = Math.round(weatherData.hourly.temperature_2m[i]);
+                const weatherCode = weatherCodes[weatherData.hourly.weather_code[i]];
+                const precipProb = weatherData.hourly.precipitation_probability[i];
                 
                 forecastHTML += `
                     <div class="hourly-item">
@@ -117,10 +127,10 @@ async function fetchWeather() {
             let dailyHTML = '<h3>7-Day Forecast</h3>';
             
             for (let i = 0; i < 7; i++) {
-                const date = new Date(data.daily.time[i]).toLocaleDateString('en-US', { weekday: 'long' });
-                const maxTemp = Math.round(data.daily.temperature_2m_max[i]);
-                const minTemp = Math.round(data.daily.temperature_2m_min[i]);
-                const weatherCode = weatherCodes[data.daily.weather_code[i]];
+                const date = new Date(weatherData.daily.time[i]).toLocaleDateString('en-US', { weekday: 'long' });
+                const maxTemp = Math.round(weatherData.daily.temperature_2m_max[i]);
+                const minTemp = Math.round(weatherData.daily.temperature_2m_min[i]);
+                const weatherCode = weatherCodes[weatherData.daily.weather_code[i]];
                 
                 dailyHTML += `
                     <div class="daily-item">
@@ -133,10 +143,49 @@ async function fetchWeather() {
             dailyForecast.innerHTML = dailyHTML;
         }
 
+        // Update air quality information
+        updateAirQuality(airData.current);
+
     } catch (error) {
         document.getElementById('weather-info').innerHTML = 'Failed to load weather data';
-        console.error('Error fetching weather:', error);
+        console.error('Error fetching data:', error);
     }
+}
+
+function updateAirQuality(airData) {
+    // Update individual pollutant values
+    document.getElementById('pm2_5').querySelector('.value').textContent = 
+        `${Math.round(airData.pm2_5)} µg/m³`;
+    document.getElementById('pm10').querySelector('.value').textContent = 
+        `${Math.round(airData.pm10)} µg/m³`;
+    document.getElementById('carbon_monoxide').querySelector('.value').textContent = 
+        `${Math.round(airData.carbon_monoxide)} µg/m³`;
+    document.getElementById('nitrogen_dioxide').querySelector('.value').textContent = 
+        `${Math.round(airData.nitrogen_dioxide)} µg/m³`;
+    document.getElementById('sulphur_dioxide').querySelector('.value').textContent = 
+        `${Math.round(airData.sulphur_dioxide)} µg/m³`;
+    document.getElementById('ozone').querySelector('.value').textContent = 
+        `${Math.round(airData.ozone)} µg/m³`;
+
+    // Update AQI index and color
+    const aqiElement = document.getElementById('aqi-index');
+    const aqi = airData.european_aqi;
+    let qualityClass = 'quality-good';
+    let qualityText = 'Good';
+
+    if (aqi > 100) {
+        qualityClass = 'quality-very-poor';
+        qualityText = 'Very Poor';
+    } else if (aqi > 75) {
+        qualityClass = 'quality-poor';
+        qualityText = 'Poor';
+    } else if (aqi > 50) {
+        qualityClass = 'quality-moderate';
+        qualityText = 'Moderate';
+    }
+
+    aqiElement.className = `aqi-index ${qualityClass}`;
+    aqiElement.textContent = `Air Quality Index: ${aqi} (${qualityText})`;
 }
 
 // Fetch weather data when the page loads
