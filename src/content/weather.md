@@ -2,6 +2,15 @@
 title = 'Weather'
 +++
 
-<div id="weather-info">Loading current weather...</div>
+<link rel="stylesheet" href="../css/weather.css">
+
+<div id="weather-info">
+    <div class="weather-container">
+        <div id="location">Loading weather for Burnaby...</div>
+        <div id="temperature"></div>
+        <div id="condition"></div>
+        <div id="details"></div>
+    </div>
+</div>
 
 <script src="../js/fetchWeather.js"></script>
