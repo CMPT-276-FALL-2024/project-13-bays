@@ -7,6 +7,7 @@ async function fetchWeather() {
             `https://api.open-meteo.com/v1/forecast?` +
             `latitude=${LATITUDE}&longitude=${LONGITUDE}` +
             `&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m` +
+            `&hourly=temperature_2m,weather_code,precipitation_probability` +
             `&timezone=America/Vancouver`
         );
         
@@ -40,7 +41,7 @@ async function fetchWeather() {
             99: 'Thunderstorm with heavy hail',
         };
 
-        // Update the DOM with weather information
+        // Update current weather
         document.getElementById('location').textContent = 'Burnaby, BC';
         document.getElementById('temperature').textContent = 
             `${Math.round(data.current.temperature_2m)}°C`;
@@ -51,6 +52,32 @@ async function fetchWeather() {
             Humidity: ${data.current.relative_humidity_2m}%<br>
             Wind: ${Math.round(data.current.wind_speed_10m)} km/h
         `;
+
+        // Update hourly forecast
+        const hourlyForecast = document.getElementById('hourly-forecast');
+        if (hourlyForecast) {
+            const currentHour = new Date().getHours();
+            let forecastHTML = '<h3>Hourly Forecast</h3>';
+            
+            // Display next 24 hours
+            for (let i = currentHour + 1; i < currentHour + 25; i++) {
+                const time = new Date(data.hourly.time[i]).getHours();
+                const temperature = Math.round(data.hourly.temperature_2m[i]);
+                const weatherCode = weatherCodes[data.hourly.weather_code[i]];
+                const precipProb = data.hourly.precipitation_probability[i];
+                
+                forecastHTML += `
+                    <div class="hourly-item">
+                        <div class="hour">${time}:00</div>
+                        <div class="temp">${temperature}°C</div>
+                        <div class="condition">${weatherCode}</div>
+                        <div class="precip">${precipProb}% precip</div>
+                    </div>
+                `;
+            }
+            hourlyForecast.innerHTML = forecastHTML;
+        }
+
     } catch (error) {
         document.getElementById('weather-info').innerHTML = 'Failed to load weather data';
         console.error('Error fetching weather:', error);

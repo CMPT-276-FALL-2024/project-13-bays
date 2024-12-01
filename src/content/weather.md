@@ -11,6 +11,7 @@ title = 'Weather'
         <div id="condition"></div>
         <div id="details"></div>
     </div>
+    <div id="hourly-forecast" class="hourly-forecast-container"></div>
 </div>
 
 <script src="../js/fetchWeather.js"></script>
