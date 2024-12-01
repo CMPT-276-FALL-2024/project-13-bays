@@ -30,3 +30,43 @@
     line-height: 1.6;
     color: #555;
 }
+
+.hourly-forecast-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.hourly-item {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    min-width: 100px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hourly-item:last-child {
+    border-right: none;
+}
+
+.hour {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.temp {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.condition {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.precip {
+    font-size: 0.8em;
+    color: #88ccff;
+}
