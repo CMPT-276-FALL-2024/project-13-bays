@@ -1,19 +1,52 @@
+let currentLatitude = 49.2488;
+let currentLongitude = -122.9805;
+let currentLocationName = 'Burnaby, BC';
+
+async function searchLocation() {
+    const searchInput = document.getElementById('location-search').value;
+    if (!searchInput) return;
+
+    try {
+        // First, geocode the location using geocoding API
+        const geocodeResponse = await fetch(
+            `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(searchInput)}&count=1&language=en&format=json`
+        );
+        const geocodeData = await geocodeResponse.json();
+
+        if (!geocodeData.results || geocodeData.results.length === 0) {
+            alert('Location not found. Please try another search.');
+            return;
+        }
+
+        const location = geocodeData.results[0];
+        currentLatitude = location.latitude;
+        currentLongitude = location.longitude;
+        currentLocationName = `${location.name}, ${location.country}`;
+
+        // Fetch weather for the new location
+        await fetchWeather();
+    } catch (error) {
+        console.error('Error searching location:', error);
+        alert('Failed to search location. Please try again.');
+    }
+}
+
 async function fetchWeather() {
     try {
-        const LATITUDE = 49.2488;
-        const LONGITUDE = -122.9805;
-        
         const response = await fetch(
             `https://api.open-meteo.com/v1/forecast?` +
-            `latitude=${LATITUDE}&longitude=${LONGITUDE}` +
+            `latitude=${currentLatitude}&longitude=${currentLongitude}` +
             `&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m` +
             `&hourly=temperature_2m,weather_code,precipitation_probability` +
             `&daily=temperature_2m_max,temperature_2m_min,weather_code` +
-            `&timezone=America/Vancouver`
+            `&timezone=auto`
         );
         
         const data = await response.json();
-        
+
+        // Update location name
+        document.getElementById('location').textContent = currentLocationName;
+
         // Convert weather code to text description
         const weatherCodes = {
             0: 'Clear sky',
@@ -43,7 +76,6 @@ async function fetchWeather() {
         };
 
         // Update current weather
-        document.getElementById('location').textContent = 'Burnaby, BC';
         document.getElementById('temperature').textContent = 
             `${Math.round(data.current.temperature_2m)}°C`;
         document.getElementById('condition').textContent = 
