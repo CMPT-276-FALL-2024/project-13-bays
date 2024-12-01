@@ -12,6 +12,7 @@ title = 'Weather'
         <div id="details"></div>
     </div>
     <div id="hourly-forecast" class="hourly-forecast-container"></div>
+    <div id="daily-forecast" class="daily-forecast-container"></div>
 </div>
 
 <script src="../js/fetchWeather.js"></script>
