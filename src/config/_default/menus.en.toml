@@ -30,6 +30,11 @@ name = "About"
 pageRef = "/about/"
 weight = 20
 
+[[main]]
+name = "Room"
+pageRef = "/room/"
+weight = 15
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
@@ -77,8 +82,3 @@ weight = 20
 #   name = "Tags"
 #   pageRef = "tags"
 #   weight = 10
-
-[[footer]]
-  name = "Boop"
-  pageRef = "/secret"
-  weight = 20
