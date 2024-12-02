@@ -1,16 +1,72 @@
 /* Base Styles */
+#library-hours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.card-wrapper {
+    display: flex;
+    transition: transform 0.5s;
+    width: 100%;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    color: #892222;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3 ease;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    color: #b85c5c;
+    transform: translateY(-55%);
+}
+
 .library-card {
+    text-align: center;
+    flex: 0 0 100%;
+    width: 100%;
+    box-sizing: border-box;
     border: 2px solid;
     padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin-right: 75px;
+    border-radius: 12px;
     background-color: var(--card-bg);
     color: var(--text-color);
 }
 
 .library-card h3 {
     margin: 0 0 10px;
-    font-size: 1.25em;
+    font-size: 1.755em;
 }
 
 .library-card p {
@@ -34,26 +90,25 @@
     color: var(--details-color);
 }
 
-library-card:hover {
-  transform: scale(1.01);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
-}
-
 /* Styling for links */
 .more-info {
-    display: inline-block;
+    display: block;
+    float: right;
     margin-top: 10px;
     text-decoration: none;
-    padding: 5px 10px;
-    border: 3px solid #892222; /* Burgundy */
+    padding: 3px 6px;
+    border: 3px solid #892222;
+    border-radius: 12px;
     background-color: #892222;
     color: white;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
 }
 
 .more-info:hover {
-    border: 3 px solid #7a1f1f; /* Darker shade of burgundy */
-    background-color: #7a1f1f;
+    border: 3 px solid #7a1f1f;
+    color: #d3d3d3 !important;
+    border-radius: 12px;
 }
 
 /* Headings */
@@ -67,3 +122,4 @@ h2 {
 .library-card hr {
     display: none;
 }
+
