@@ -62,6 +62,7 @@
     border-radius: 12px;
     background-color: var(--card-bg);
     color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .library-card h3 {
