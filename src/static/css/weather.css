@@ -1,0 +1,259 @@
+/* Main container styles */
+#weather-info {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Search container */
+.search-container {
+    width: 50vw;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+/* Search input field */
+#location-search {
+    flex: 1;
+    padding: 12px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: border-color 0.3s;
+}
+
+#location-search:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* Search button */
+.search-container button {
+    padding: 12px 25px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1.1em;
+}
+
+.search-container button:hover {
+    background: #2980b9;
+    transform: translateY(-1px);
+}
+
+/* Current weather display */
+.weather-container {
+    width: 50vw;
+    padding: 30px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Location name */
+#location {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Temperature display */
+#temperature {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #e74c3c;
+    line-height: 1;
+}
+
+/* Weather condition text */
+#condition {
+    font-size: 1.4em;
+    margin: 15px 0;
+    color: #34495e;
+}
+
+/* Additional weather details */
+#details {
+    line-height: 2;
+    color: #7f8c8d;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Air quality section */
+.air-quality-container {
+    width: 50vw;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Air quality section header */
+.air-quality-container h3 {
+    text-align: center;
+    font-size: 1.6em;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* Air quality metrics grid */
+.air-quality-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+/* Individual air quality metric card */
+.air-quality-item {
+    padding: 20px 15px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s;
+    border: 1px solid #eee;
+}
+
+.air-quality-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Metric label */
+.air-quality-item .label {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Metric value */
+.air-quality-item .value {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Air Quality Index display */
+.aqi-index {
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/* Weather forecast sections */
+.hourly-forecast-container, .daily-forecast-container {
+    width: 50vw;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+/* Forecast section headers */
+.hourly-forecast-container h3, .daily-forecast-container h3 {
+    text-align: center;
+    font-size: 1.6em;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* Forecast item cards */
+.hourly-item, .daily-item {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    min-width: 140px;
+    border-right: 1px solid #eee;
+    transition: all 0.3s;
+}
+
+.hourly-item:hover, .daily-item:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+}
+
+/* Time/Date display */
+.hour, .date {
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #2980b9;
+}
+
+/* Temperature display in forecast */
+.temp {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: #e67e22;
+}
+
+/* Weather condition in forecast */
+.condition {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+/* Precipitation probability */
+.precip {
+    font-size: 1em;
+    color: #3498db;
+    margin-top: 10px;
+}
+
+/* Air quality status colors */
+.quality-good {
+    color: #27ae60;
+}
+
+.quality-moderate {
+    color: #f39c12;
+}
+
+.quality-poor {
+    color: #e74c3c;
+}
+
+.quality-very-poor {
+    color: #c0392b;
+}
+
+/* Responsive design breakpoints */
+@media (max-width: 1200px) {
+    #weather-info,
+    .weather-container,
+    .air-quality-container,
+    .hourly-forecast-container,
+    .daily-forecast-container,
+    .search-container {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #weather-info,
+    .weather-container,
+    .air-quality-container,
+    .hourly-forecast-container,
+    .daily-forecast-container,
+    .search-container {
+        width: 95vw;
+    }
+}
