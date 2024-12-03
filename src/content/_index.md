@@ -6,7 +6,7 @@
     {{< icon "triangle-exclamation" >}}
   </span>
   <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">🚧 Under Construction: <code id="layout">Release Data by
+    <span class="prose dark:prose-invert">🚧 Under Construction: <code id="layout">Release Date by
     Dec 6th</code></span>
     <button
       id="switch-layout-button"
