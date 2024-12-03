@@ -1,0 +1,40 @@
+/* Form container for layout */
+.form-container {
+    margin: 10px 0;
+}
+
+/* Input box styling */
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgba(var(--color-neutral-800), 1);
+    color: rgb(var(--color-neutral));
+    border: 1px solid rgba(var(--color-neutral-600), 1);
+    border-radius: 4px;
+}
+
+/* Input box focus */
+.input-box:focus {
+    outline: 2px solid rgba(var(--color-primary-500), 1);
+}
+
+/* Styled button */
+.styled-button {
+    background-color: rgba(var(--color-primary-600), 1);
+    color: rgb(var(--color-neutral));
+    border: 2px solid rgba(var(--color-primary-400), 1);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover and focus */
+.styled-button:hover,
+.styled-button:focus {
+    background-color: rgba(var(--color-primary-400), 1);
+    color: rgb(var(--color-neutral-900));
+    outline: 2px solid rgba(var(--color-primary-300), 1);
+}
