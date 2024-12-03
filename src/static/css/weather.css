@@ -3,6 +3,7 @@
     width: 50vw;
     margin: 0 auto;
     padding: 20px;
+    color: rgba(var(--color-neutral), 1);
 }
 
 /* Search container */
@@ -17,31 +18,34 @@
 #location-search {
     flex: 1;
     padding: 12px 20px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid rgba(var(--color-neutral-400), 0.5);
     border-radius: 8px;
     font-size: 1.1em;
-    transition: border-color 0.3s;
+    background-color: rgba(var(--color-neutral-800), 1);
+    color: rgba(var(--color-neutral), 1);
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 #location-search:focus {
     outline: none;
-    border-color: #3498db;
+    border-color: rgba(var(--color-primary-500), 1);
+    box-shadow: 0 0 8px rgba(var(--color-primary-400), 0.8);
 }
 
 /* Search button */
 .search-container button {
     padding: 12px 25px;
-    background: #3498db;
-    color: white;
+    background: rgba(var(--color-primary-600), 1);
+    color: rgba(var(--color-neutral), 1);
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: background 0.3s, transform 0.2s;
     font-size: 1.1em;
 }
 
 .search-container button:hover {
-    background: #2980b9;
+    background: rgba(var(--color-primary-400), 1);
     transform: translateY(-1px);
 }
 
@@ -50,17 +54,18 @@
     width: 50vw;
     padding: 30px;
     margin: 20px auto;
-    background: #ffffff;
+    background: rgba(var(--color-neutral-800), 1);
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(var(--color-neutral-900), 0.7);
     text-align: center;
+    color: rgba(var(--color-neutral-200), 1);
 }
 
 /* Location name */
 #location {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: rgba(var(--color-primary-300), 1);
     font-weight: 500;
 }
 
@@ -69,7 +74,7 @@
     font-size: 4em;
     font-weight: bold;
     margin: 20px 0;
-    color: #e74c3c;
+    color: rgba(var(--color-secondary-500), 1);
     line-height: 1;
 }
 
@@ -77,13 +82,13 @@
 #condition {
     font-size: 1.4em;
     margin: 15px 0;
-    color: #34495e;
+    color: rgba(var(--color-neutral-200), 1);
 }
 
 /* Additional weather details */
 #details {
     line-height: 2;
-    color: #7f8c8d;
+    color: rgba(var(--color-neutral-400), 1);
     font-size: 1.1em;
     margin-top: 20px;
 }
@@ -93,16 +98,16 @@
     width: 50vw;
     margin: 30px auto;
     padding: 30px;
-    background: #ffffff;
+    background: rgba(var(--color-neutral-800), 1);
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(var(--color-neutral-900), 0.7);
 }
 
 /* Air quality section header */
 .air-quality-container h3 {
     text-align: center;
     font-size: 1.6em;
-    color: #2c3e50;
+    color: rgba(var(--color-primary-300), 1);
     margin-bottom: 25px;
 }
 
@@ -118,22 +123,23 @@
 /* Individual air quality metric card */
 .air-quality-item {
     padding: 20px 15px;
-    background: #f8f9fa;
+    background: rgba(var(--color-neutral-700), 1);
     border-radius: 12px;
     text-align: center;
     transition: all 0.3s;
-    border: 1px solid #eee;
+    border: 1px solid rgba(var(--color-neutral-600), 1);
+    color: rgba(var(--color-neutral), 1);
 }
 
 .air-quality-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.5);
 }
 
 /* Metric label */
 .air-quality-item .label {
     font-size: 1em;
-    color: #666;
+    color: rgba(var(--color-neutral-400), 1);
     margin-bottom: 8px;
 }
 
@@ -141,7 +147,7 @@
 .air-quality-item .value {
     font-size: 1.4em;
     font-weight: bold;
-    color: #2c3e50;
+    color: rgba(var(--color-primary-400), 1);
 }
 
 /* Air Quality Index display */
@@ -149,10 +155,11 @@
     text-align: center;
     margin-top: 25px;
     padding: 15px;
-    background: #f8f9fa;
+    background: rgba(var(--color-neutral-700), 1);
     border-radius: 12px;
     font-size: 1.2em;
     font-weight: 500;
+    color: rgba(var(--color-neutral-200), 1);
 }
 
 /* Weather forecast sections */
@@ -160,9 +167,9 @@
     width: 50vw;
     margin: 30px auto;
     padding: 30px;
-    background: #ffffff;
+    background: rgba(var(--color-neutral-800), 1);
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(var(--color-neutral-900), 0.7);
     overflow-x: auto;
 }
 
@@ -170,7 +177,7 @@
 .hourly-forecast-container h3, .daily-forecast-container h3 {
     text-align: center;
     font-size: 1.6em;
-    color: #2c3e50;
+    color: rgba(var(--color-primary-300), 1);
     margin-bottom: 25px;
 }
 
@@ -180,12 +187,12 @@
     padding: 20px;
     text-align: center;
     min-width: 140px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid rgba(var(--color-neutral-600), 1);
     transition: all 0.3s;
 }
 
 .hourly-item:hover, .daily-item:hover {
-    background: #f8f9fa;
+    background: rgba(var(--color-neutral-700), 1);
     transform: translateY(-2px);
 }
 
@@ -194,45 +201,28 @@
     font-weight: 500;
     font-size: 1.1em;
     margin-bottom: 10px;
-    color: #2980b9;
+    color: rgba(var(--color-primary-400), 1);
 }
 
 /* Temperature display in forecast */
 .temp {
     font-size: 1.6em;
     margin: 10px 0;
-    color: #e67e22;
+    color: rgba(var(--color-secondary-500), 1);
 }
 
 /* Weather condition in forecast */
 .condition {
     font-size: 1.1em;
     margin: 10px 0;
-    color: #7f8c8d;
+    color: rgba(var(--color-neutral-400), 1);
 }
 
 /* Precipitation probability */
 .precip {
     font-size: 1em;
-    color: #3498db;
+    color: rgba(var(--color-primary-500), 1);
     margin-top: 10px;
-}
-
-/* Air quality status colors */
-.quality-good {
-    color: #27ae60;
-}
-
-.quality-moderate {
-    color: #f39c12;
-}
-
-.quality-poor {
-    color: #e74c3c;
-}
-
-.quality-very-poor {
-    color: #c0392b;
 }
 
 /* Responsive design breakpoints */
