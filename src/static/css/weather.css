@@ -153,13 +153,30 @@
 /* Air Quality Index display */
 .aqi-index {
     text-align: center;
-    margin-top: 25px;
+    margin: 25px 40px 0;
     padding: 15px;
     background: rgba(var(--color-neutral-700), 1);
     border-radius: 12px;
     font-size: 1.2em;
     font-weight: 500;
     color: rgba(var(--color-neutral-200), 1);
+}
+
+/* Air Quality Index colors */
+.aqi-index.quality-good {
+    color: #00e400; /* Bright green for good */
+}
+
+.aqi-index.quality-moderate {
+    color: #ffff00; /* Yellow for moderate */
+}
+
+.aqi-index.quality-poor {
+    color: #ff7e00; /* Orange for poor */
+}
+
+.aqi-index.quality-very-poor {
+    color: #ff0000; /* Red for very poor */
 }
 
 /* Weather forecast sections */
