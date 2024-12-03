@@ -35,6 +35,11 @@ name = "Room"
 pageRef = "/room/"
 weight = 15
 
+[[main]]
+name = "Books"
+pageRef = "/book/"
+weight = 12
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
