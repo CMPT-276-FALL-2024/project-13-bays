@@ -1,59 +1,92 @@
 /* Base Styles */
 .library-card {
-    border: 1px solid;
+    border: 1px solid rgba(var(--color-neutral-400), 0.5);
     padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background-color: var(--card-bg);
-    color: var(--text-color);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: rgba(var(--color-neutral-800), 1);
+    color: rgba(var(--color-neutral), 1);
+    box-shadow: 0 4px 6px -1px rgba(var(--color-neutral-900), 0.7);
 }
 
 .library-card h3 {
     margin: 0 0 10px;
-    font-size: 1.25em;
+    font-size: 1.5em;
+    color: rgba(var(--color-neutral-200), 1); /* White */
 }
 
 .library-card p {
     margin: 5px 0;
+    font-size: 1em;
+    color: rgba(var(--color-neutral-200), 1);
 }
 
 /* Explicit colors for open and closed statuses */
 .library-card .status.open {
-    color: #008000; /* Green */
+    color: #32CD32; /* Lime green */
     font-weight: bold;
 }
 
 .library-card .status.closed {
-    color: #ff0000; /* Red */
+    color: #FF4500; /* Orange red */
     font-weight: bold;
 }
 
 /* Styling for details */
 .library-card .details {
     font-size: 0.9em;
-    color: var(--details-color);
+    color: rgba(var(--color-neutral-300), 1);
 }
 
 /* Styling for links */
 .more-info {
     display: inline-block;
     margin-top: 10px;
-    color: var(--link-color);
+    color: rgba(var(--color-primary-400), 1);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .more-info:hover {
     text-decoration: underline;
+    color: rgba(var(--color-primary-300), 1);
 }
 
 /* Headings */
 h2 {
-    font-size: 1.5em;
-    color: var(--heading-color);
+    font-size: 2em;
+    color: rgba(var(--color-primary-400), 1);
     margin-bottom: 15px;
+    text-align: center;
 }
 
-/* Remove horizontal lines under each card */
-.library-card hr {
-    display: none;
+/* Card Hover Effect */
+.library-card:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+    border-color: rgba(var(--color-primary-400), 1);
+}
+
+/* Box Shadow for Elevated Look */
+.library-card {
+    box-shadow: 0 4px 6px rgba(var(--color-neutral-900), 0.8);
+}
+
+/* Adjust layout for small screens */
+@media (max-width: 600px) {
+    .library-card {
+        padding: 10px;
+    }
+
+    .library-card h3 {
+        font-size: 1.2em;
+    }
+
+    .library-card p {
+        font-size: 0.9em;
+    }
+
+    .more-info {
+        font-size: 0.9em;
+    }
 }
