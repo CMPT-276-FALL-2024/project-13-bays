@@ -179,7 +179,7 @@
     color: #ff0000; /* Red for very poor */
 }
 
-/* Weather forecast sections */
+/* Weather forecast sections - common styles */
 .hourly-forecast-container, .daily-forecast-container {
     width: 50vw;
     margin: 30px auto;
@@ -190,7 +190,7 @@
     overflow-x: auto;
 }
 
-/* Forecast section headers */
+/* Forecast section headers - common styles */
 .hourly-forecast-container h3, .daily-forecast-container h3 {
     text-align: center;
     font-size: 1.6em;
@@ -198,8 +198,8 @@
     margin-bottom: 25px;
 }
 
-/* Forecast item cards */
-.hourly-item, .daily-item {
+/* Replace combined item styles with separate ones */
+.hourly-item {
     display: inline-block;
     padding: 20px;
     text-align: center;
@@ -208,35 +208,59 @@
     transition: all 0.3s;
 }
 
-.hourly-item:hover, .daily-item:hover {
+.daily-item {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    min-width: 140px;
+    border-right: 1px solid rgba(var(--color-neutral-600), 1);
+    transition: all 0.3s;
+}
+
+.hourly-item:hover {
     background: rgba(var(--color-neutral-700), 1);
     transform: translateY(-2px);
 }
 
-/* Time/Date display */
-.hour, .date {
+.daily-item:hover {
+    background: rgba(var(--color-neutral-700), 1);
+    transform: translateY(-2px);
+}
+
+/* Time display for hourly forecast */
+.hourly-item .hour {
     font-weight: 500;
     font-size: 1.1em;
     margin-bottom: 10px;
     color: rgba(var(--color-primary-400), 1);
 }
 
-/* Temperature display in forecast */
-.temp {
+/* Date display for daily forecast */
+.daily-item .date {
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: rgba(var(--color-primary-400), 1);
+}
+
+/* Temperature display in forecasts */
+.hourly-item .temp,
+.daily-item .temp {
     font-size: 1.6em;
     margin: 10px 0;
     color: rgba(var(--color-secondary-500), 1);
 }
 
-/* Weather condition in forecast */
-.condition {
+/* Weather condition in forecasts */
+.hourly-item .condition,
+.daily-item .condition {
     font-size: 1.1em;
     margin: 10px 0;
     color: rgba(var(--color-neutral-400), 1);
 }
 
-/* Precipitation probability */
-.precip {
+/* Precipitation probability - only for hourly forecast */
+.hourly-item .precip {
     font-size: 1em;
     color: rgba(var(--color-primary-500), 1);
     margin-top: 10px;
