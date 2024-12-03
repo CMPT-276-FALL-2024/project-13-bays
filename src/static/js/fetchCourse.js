@@ -1,112 +1,90 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const courseContainer = document.getElementById("course-list");
+    const courseContainer = document.getElementById("course");
     const yearSelect = document.getElementById("year-select");
     const termSelect = document.getElementById("term-select");
-    const departmentSelect = document.getElementById("department-select");
+    const departmentInput = document.getElementById("department-input");
+    const fetchButton = document.getElementById("fetch-course");
 
-    if (!courseContainer || !yearSelect || !termSelect || !departmentSelect) {
-        console.error("Error: Required elements not found in the document!");
-        return;
-    }
+    // Populate year dropdown dynamically in descending order
+    fetch("https://www.sfu.ca/bin/wcm/course-outlines")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch years. Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(years => {
+            const sortedYears = years.sort((a, b) => b.value - a.value); // Sort descending
+            yearSelect.innerHTML = sortedYears.map(year => `<option value="${year.value}">${year.value}</option>`).join('');
+        })
+        .catch(error => {
+            console.error("Error fetching years:", error);
+            courseContainer.innerHTML = `<p>Error loading years. Please try again later.</p>`;
+        });
 
-    function fetchDepartments(year, term) {
-        const url = `https://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}`;
-
-        fetch(url)
+    // Populate term dropdown based on selected year
+    yearSelect.addEventListener("change", () => {
+        const year = yearSelect.value;
+        fetch(`https://www.sfu.ca/bin/wcm/course-outlines?${year}`)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error("Network response was not ok: " + response.statusText);
+                    throw new Error(`Failed to fetch terms for year ${year}. Status: ${response.status}`);
                 }
                 return response.json();
             })
-            .then(data => {
-                if (!Array.isArray(data)) {
-                    throw new Error("Unexpected response format");
-                }
-
-                departmentSelect.innerHTML = data
-                    .map(dept => `<option value="${dept.value}">${dept.name || dept.text}</option>`)
-                    .join("");
+            .then(terms => {
+                termSelect.innerHTML = terms.map(term => `<option value="${term.value}">${term.text}</option>`).join('');
             })
             .catch(error => {
-                console.error("Error fetching department data:", error);
-                departmentSelect.innerHTML = "<option value=''>Failed to load departments</option>";
+                console.error(`Error fetching terms for year ${year}:`, error);
+                courseContainer.innerHTML = `<p>Error loading terms. Please try again later.</p>`;
             });
-    }
+    });
 
-    function fetchCourses(year, term, department) {
-        const url = `https://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department}`;
+    // Fetch and display courses based on selection
+    fetchButton.addEventListener("click", () => {
+        const year = yearSelect.value;
+        const term = termSelect.value;
+        const department = departmentInput.value.trim().toLowerCase();
 
-        fetch(url)
+        if (!year || !term || !department) {
+            courseContainer.innerHTML = `<p>Please fill in all fields to fetch courses.</p>`;
+            return;
+        }
+
+        const apiUrl = `https://www.sfu.ca/bin/wcm/course-outlines?${year}/${term}/${department}`;
+
+        fetch(apiUrl)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error("Network response was not ok: " + response.statusText);
+                    throw new Error(`Failed to fetch courses for ${department} in ${term} ${year}. Status: ${response.status}`);
                 }
                 return response.json();
             })
-            .then(data => {
-                if (!Array.isArray(data)) {
-                    throw new Error("Unexpected response format");
-                }
-
-                if (data.length === 0) {
-                    courseContainer.innerHTML = "<p>No courses found for the selected criteria.</p>";
+            .then(courses => {
+                if (courses.length === 0) {
+                    courseContainer.innerHTML = `<p>No courses found for the selected criteria.</p>`;
                     return;
                 }
 
-                const courseListHTML = data
-                    .map(course => {
-                        const courseNumber = `CMPT ${course.text}`; // Prefix CMPT
-                        const courseTitle = course.title || "No title available";
-                        const courseOutlineLink = `https://www.sfu.ca/outlines.html?${year}/${term}/${department}/${course.text}/d100`;
+                // Generate HTML for the course list
+                const courseHTML = `
+                    <h3>Courses Offered</h3>
+                    <ul>
+                        ${courses.map(course => `
+                            <li>
+                                <strong>${course.title}</strong> (${course.text})
+                            </li>
+                        `).join('')}
+                    </ul>
+                `;
 
-                        return `
-                            <div class="course-item">
-                                <h3><a href="${courseOutlineLink}" target="_blank">${courseNumber}</a></h3>
-                                <p>${courseTitle}</p>
-                            </div>
-                        `;
-                    })
-                    .join("");
-
-                courseContainer.innerHTML = courseListHTML;
+                // Update the DOM
+                courseContainer.innerHTML = courseHTML;
             })
             .catch(error => {
-                console.error("Error fetching course data:", error);
-                courseContainer.innerHTML = "<p>Failed to load course data. Please try again later.</p>";
+                console.error(`Error fetching courses for ${department} in ${term} ${year}:`, error);
+                courseContainer.innerHTML = `<p>Error loading courses. Please try again later.</p>`;
             });
-    }
-
-    yearSelect.addEventListener("change", () => {
-        const year = yearSelect.value;
-        const term = termSelect.value;
-        if (year && term) {
-            fetchDepartments(year, term);
-        }
     });
-
-    termSelect.addEventListener("change", () => {
-        const year = yearSelect.value;
-        const term = termSelect.value;
-        if (year && term) {
-            fetchDepartments(year, term);
-        }
-    });
-
-    departmentSelect.addEventListener("change", () => {
-        const year = yearSelect.value;
-        const term = termSelect.value;
-        const department = departmentSelect.value;
-        if (year && term && department) {
-            fetchCourses(year, term, department);
-        }
-    });
-
-    const defaultYear = "2025";
-    const defaultTerm = "spring";
-
-    yearSelect.value = defaultYear;
-    termSelect.value = defaultTerm;
-
-    fetchDepartments(defaultYear, defaultTerm);
 });
