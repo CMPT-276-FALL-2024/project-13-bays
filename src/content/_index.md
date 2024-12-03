@@ -6,19 +6,10 @@
     {{< icon "triangle-exclamation" >}}
   </span>
   <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">🚧 Under Construction: <code id="layout">Release Data by
+    <span class="prose dark:prose-invert">🚧 Under Construction: <code id="layout">Release Date by
     Dec 6th</code></span>
     <button
       id="switch-layout-button"
       class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
   </span>
 </div>
-
-
-You can checkout the latest books in the [Library]({{< ref "/library" >}}) page.
-
-_**Sidenote:** Check out some weather cams here [Weather]({{< ref "/weather" >}})_
-
-{{< typeit >}}
-About us?
-{{< /typeit >}}
