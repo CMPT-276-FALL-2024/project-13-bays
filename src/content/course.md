@@ -26,8 +26,8 @@ title = "Courses"
 <div id="course">
 </div>
 
-<script src="../js/fetchCourse.js"></script>
-
 <head>
     <link rel="stylesheet" href="../css/course.css">
 </head>
+
+<script src="../js/fetchCourse.js"></script>
