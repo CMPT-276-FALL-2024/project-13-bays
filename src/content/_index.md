@@ -13,5 +13,13 @@
     </a>
 </div>
 
+{{< typeit 
+  tag=h4
+  lifeLike=true
+  speed=50
+  breakLines=false
+>}}
+Press Toolbox Above To Start
+{{< /typeit >}}
 
 > Your one-stop hub with essential tools for Simon Fraser University students
