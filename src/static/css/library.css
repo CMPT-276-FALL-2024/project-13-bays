@@ -29,7 +29,7 @@
 
 .left-arrow, .right-arrow {
     position: absolute;
-    color: #892222;
+    color: #fb923c;
     top: 50%;
     transform: translateY(-50%);
     font-size: 3rem;
@@ -99,9 +99,9 @@
     color: var(--link-color);
     text-decoration: none;
     padding: 3px 6px;
-    border: 3px solid #892222;
+    border: 3px solid #f97316;
     border-radius: 12px;
-    background-color: #892222;
+    background-color: #f97316;
     color: white;
     transition: all 0.3 ease;
     cursor: pointer;
