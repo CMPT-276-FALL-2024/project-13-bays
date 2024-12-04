@@ -123,7 +123,7 @@
 /* Individual air quality metric card */
 .air-quality-item {
     padding: 20px 15px;
-    background: rgba(var(--color-neutral-700), 1);
+    background: rgba(var(--color-neutral-800), 1);
     border-radius: 12px;
     text-align: center;
     transition: all 0.3s;
@@ -153,16 +153,33 @@
 /* Air Quality Index display */
 .aqi-index {
     text-align: center;
-    margin-top: 25px;
+    margin: 25px 40px 0;
     padding: 15px;
-    background: rgba(var(--color-neutral-700), 1);
+    background: rgba(var(--color-neutral-800), 1);
     border-radius: 12px;
     font-size: 1.2em;
     font-weight: 500;
     color: rgba(var(--color-neutral-200), 1);
 }
 
-/* Weather forecast sections */
+/* Air Quality Index colors */
+.aqi-index.quality-good {
+    color: #00e400; /* Bright green for good */
+}
+
+.aqi-index.quality-moderate {
+    color: #ffff00; /* Yellow for moderate */
+}
+
+.aqi-index.quality-poor {
+    color: #ff7e00; /* Orange for poor */
+}
+
+.aqi-index.quality-very-poor {
+    color: #ff0000; /* Red for very poor */
+}
+
+/* Weather forecast sections - common styles */
 .hourly-forecast-container, .daily-forecast-container {
     width: 50vw;
     margin: 30px auto;
@@ -170,10 +187,50 @@
     background: rgba(var(--color-neutral-800), 1);
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(var(--color-neutral-900), 0.7);
-    overflow-x: auto;
 }
 
-/* Forecast section headers */
+/* Add specific styles for scrollable forecast containers */
+.hourly-forecast-container, .daily-forecast-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+/* Style the scrollbar for Webkit browsers */
+.hourly-forecast-container::-webkit-scrollbar,
+.daily-forecast-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-track,
+.daily-forecast-container::-webkit-scrollbar-track {
+    background: rgba(var(--color-neutral-700), 1);
+    border-radius: 4px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb,
+.daily-forecast-container::-webkit-scrollbar-thumb {
+    background: rgba(var(--color-neutral-500), 1);
+    border-radius: 4px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb:hover,
+.daily-forecast-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--color-neutral-400), 1);
+}
+
+/* Ensure the titles don't scroll with the items */
+.hourly-forecast-container h3,
+.daily-forecast-container h3 {
+    margin-bottom: 25px;
+    position: sticky;
+    left: 0;
+    background: rgba(var(--color-neutral-800), 1);
+    padding-bottom: 15px;
+}
+
+/* Forecast section headers - common styles */
 .hourly-forecast-container h3, .daily-forecast-container h3 {
     text-align: center;
     font-size: 1.6em;
@@ -181,8 +238,8 @@
     margin-bottom: 25px;
 }
 
-/* Forecast item cards */
-.hourly-item, .daily-item {
+/* Replace combined item styles with separate ones */
+.hourly-item {
     display: inline-block;
     padding: 20px;
     text-align: center;
@@ -191,35 +248,59 @@
     transition: all 0.3s;
 }
 
-.hourly-item:hover, .daily-item:hover {
+.daily-item {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    min-width: 140px;
+    border-right: 1px solid rgba(var(--color-neutral-600), 1);
+    transition: all 0.3s;
+}
+
+.hourly-item:hover {
     background: rgba(var(--color-neutral-700), 1);
     transform: translateY(-2px);
 }
 
-/* Time/Date display */
-.hour, .date {
+.daily-item:hover {
+    background: rgba(var(--color-neutral-700), 1);
+    transform: translateY(-2px);
+}
+
+/* Time display for hourly forecast */
+.hourly-item .hour {
     font-weight: 500;
     font-size: 1.1em;
     margin-bottom: 10px;
     color: rgba(var(--color-primary-400), 1);
 }
 
-/* Temperature display in forecast */
-.temp {
+/* Date display for daily forecast */
+.daily-item .date {
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: rgba(var(--color-primary-400), 1);
+}
+
+/* Temperature display in forecasts */
+.hourly-item .temp,
+.daily-item .temp {
     font-size: 1.6em;
     margin: 10px 0;
     color: rgba(var(--color-secondary-500), 1);
 }
 
-/* Weather condition in forecast */
-.condition {
+/* Weather condition in forecasts */
+.hourly-item .condition,
+.daily-item .condition {
     font-size: 1.1em;
     margin: 10px 0;
     color: rgba(var(--color-neutral-400), 1);
 }
 
-/* Precipitation probability */
-.precip {
+/* Precipitation probability - only for hourly forecast */
+.hourly-item .precip {
     font-size: 1em;
     color: rgba(var(--color-primary-500), 1);
     margin-top: 10px;
@@ -246,4 +327,36 @@
     .search-container {
         width: 95vw;
     }
+}
+
+/* Enhanced scrollbars */
+.hourly-forecast-container,
+.daily-forecast-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(var(--color-primary-500), 0.8) rgba(var(--color-neutral-800), 1);
+}
+
+.hourly-forecast-container::-webkit-scrollbar,
+.daily-forecast-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-track,
+.daily-forecast-container::-webkit-scrollbar-track {
+    background: rgba(var(--color-neutral-800), 1);
+    border-radius: 4px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb,
+.daily-forecast-container::-webkit-scrollbar-thumb {
+    background: rgba(var(--color-primary-500), 0.8);
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb:hover,
+.daily-forecast-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--color-primary-300), 0.8);
 }
