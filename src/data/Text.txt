@@ -1,0 +1,57 @@
+All the required Text for this portfolio
+Fonts
+
+----------------------------------------------
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Pacifico&family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+----------------------------------------------
+
+
+What's New
+----------------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.
+CATEGORY A
+Item One
+Item Two
+FEATURED
+Alpha
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+CATEGORY B
+Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta etc.
+
+FEATURED
+Omega etc.
+
+----------------------------------------------
+
+About Text
+
+----------------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+in culpa qui officia deserunt.
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+veritatis et quasi architecto.
+----------------------------------------------
+
+
+Theme
+----------------------------------------------
+    body:"#FCF6F4",
+    text:"#000000",
+    fontFamily:"'Source Sans Pro', sans-serif",
+    bodyRgba : "252, 246, 244",
+    textRgba:"0,0,0",
+
+
+----------------------------------------------
