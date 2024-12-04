@@ -1,7 +1,7 @@
 colorScheme = "fire"
 defaultAppearance = "dark"
-autoSwitchAppearance = true
-enableSearch = true
+autoSwitchAppearance = false
+enableSearch = false
 enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
@@ -11,18 +11,16 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultBackgroundImage = "/screen4.png"
 
 [header]
-layout = "fixed"
+# layout = "fixed"
 
 [footer]
-showMenu = true
+showMenu = false
 showCopyright = false
 showThemeAttribution = false
-showAppearanceSwitcher = true
+showAppearanceSwitcher = false
 showScrollToTop = true
 
 [about]
-title = "Toolbox"
-logo_image = "favicon.ico"
 
 [homepage]
 layout = "background"
@@ -33,7 +31,7 @@ showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
 homepageImage = "/screen4.png"
-layoutBackgroundBlur = false
+layoutBackgroundBlur = true
 
 [article]
 showDate = false

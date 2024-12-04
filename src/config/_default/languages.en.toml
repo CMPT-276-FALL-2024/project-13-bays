@@ -1,9 +1,4 @@
 title = "SFU Toolbox"
-
-
-disabled = false
-languageCode = "en"
-languageName = "English"
 weight = 1
 
 [params]
@@ -13,9 +8,5 @@ rtl = false
 dateFormat = "2 January 2006"
 
 [params.author]
-name = "🧰"
-headline = "A generally awesome tool"
-bio = "A little bit about me"
-links = [
-  { github = "https://github.com/CMPT-276-FALL-2024/project-13-bays/" }
-]
+name = " "
+#headline = "A generally awesome tool"
