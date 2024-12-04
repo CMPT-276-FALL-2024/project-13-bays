@@ -142,11 +142,14 @@ async function fetchWeather() {
             dailyForecast.innerHTML = dailyHTML;
         }
 
+        // Enable smooth scrolling for forecast containers
+        enableSmoothScroll();
+
         // Update air quality information
         updateAirQuality(airData.current);
 
-        // Enable smooth scrolling for forecast containers
-        enableSmoothScroll();
+        // Ensure Air Quality panel is at the bottom
+        moveAirQualityToBottom();
 
     } catch (error) {
         document.getElementById('weather-info').innerHTML = 'Failed to load weather data';
@@ -188,6 +191,14 @@ function updateAirQuality(airData) {
     aqiElement.textContent = `Air Quality Index: ${aqi} (${qualityText})`;
 }
 
+function moveAirQualityToBottom() {
+    const airQualityPanel = document.querySelector('.air-quality-container');
+    const parent = document.getElementById('weather-info');
+    if (airQualityPanel && parent) {
+        parent.appendChild(airQualityPanel);
+    }
+}
+
 function enableSmoothScroll() {
     const smoothScrollContainers = document.querySelectorAll('.hourly-forecast-container, .daily-forecast-container');
 
@@ -195,7 +206,7 @@ function enableSmoothScroll() {
         container.addEventListener('wheel', (event) => {
             event.preventDefault();
             container.scrollBy({
-                left: event.deltaY < 0 ? -100 : 100,
+                left: event.deltaY < 0 ? -150 : 150,
                 behavior: 'smooth'
             });
         });
