@@ -328,3 +328,35 @@
         width: 95vw;
     }
 }
+
+/* Enhanced scrollbars */
+.hourly-forecast-container,
+.daily-forecast-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(var(--color-primary-500), 0.8) rgba(var(--color-neutral-800), 1);
+}
+
+.hourly-forecast-container::-webkit-scrollbar,
+.daily-forecast-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-track,
+.daily-forecast-container::-webkit-scrollbar-track {
+    background: rgba(var(--color-neutral-800), 1);
+    border-radius: 4px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb,
+.daily-forecast-container::-webkit-scrollbar-thumb {
+    background: rgba(var(--color-primary-500), 0.8);
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb:hover,
+.daily-forecast-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--color-primary-300), 0.8);
+}

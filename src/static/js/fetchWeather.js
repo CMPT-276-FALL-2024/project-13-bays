@@ -7,7 +7,7 @@ async function searchLocation() {
     if (!searchInput) return;
 
     try {
-        // First, geocode the location using geocoding API
+        // Geocode the location using geocoding API
         const geocodeResponse = await fetch(
             `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(searchInput)}&count=1&language=en&format=json`
         );
@@ -42,7 +42,7 @@ async function fetchWeather() {
             `&daily=temperature_2m_max,temperature_2m_min,weather_code` +
             `&timezone=auto`
         );
-        
+
         // Fetch air quality data
         const airQualityResponse = await fetch(
             `https://air-quality-api.open-meteo.com/v1/air-quality?` +
@@ -86,9 +86,9 @@ async function fetchWeather() {
         };
 
         // Update current weather
-        document.getElementById('temperature').textContent = 
+        document.getElementById('temperature').textContent =
             `${Math.round(weatherData.current.temperature_2m)}°C`;
-        document.getElementById('condition').textContent = 
+        document.getElementById('condition').textContent =
             weatherCodes[weatherData.current.weather_code] || 'Unknown';
         document.getElementById('details').innerHTML = `
             Feels like: ${Math.round(weatherData.current.apparent_temperature)}°C<br>
@@ -101,14 +101,13 @@ async function fetchWeather() {
         if (hourlyForecast) {
             const currentHour = new Date().getHours();
             let forecastHTML = '<h3>Hourly Forecast</h3>';
-            
-            // Display next 24 hours
+
             for (let i = currentHour + 1; i < currentHour + 25; i++) {
                 const time = new Date(weatherData.hourly.time[i]).getHours();
                 const temperature = Math.round(weatherData.hourly.temperature_2m[i]);
                 const weatherCode = weatherCodes[weatherData.hourly.weather_code[i]];
                 const precipProb = weatherData.hourly.precipitation_probability[i];
-                
+
                 forecastHTML += `
                     <div class="hourly-item">
                         <div class="hour">${time}:00</div>
@@ -125,13 +124,13 @@ async function fetchWeather() {
         const dailyForecast = document.getElementById('daily-forecast');
         if (dailyForecast) {
             let dailyHTML = '<h3>7-Day Forecast</h3>';
-            
+
             for (let i = 0; i < 7; i++) {
                 const date = new Date(weatherData.daily.time[i]).toLocaleDateString('en-US', { weekday: 'long' });
                 const maxTemp = Math.round(weatherData.daily.temperature_2m_max[i]);
                 const minTemp = Math.round(weatherData.daily.temperature_2m_min[i]);
                 const weatherCode = weatherCodes[weatherData.daily.weather_code[i]];
-                
+
                 dailyHTML += `
                     <div class="daily-item">
                         <div class="date">${date}</div>
@@ -146,6 +145,9 @@ async function fetchWeather() {
         // Update air quality information
         updateAirQuality(airData.current);
 
+        // Enable smooth scrolling for forecast containers
+        enableSmoothScroll();
+
     } catch (error) {
         document.getElementById('weather-info').innerHTML = 'Failed to load weather data';
         console.error('Error fetching data:', error);
@@ -153,21 +155,19 @@ async function fetchWeather() {
 }
 
 function updateAirQuality(airData) {
-    // Update individual pollutant values
-    document.getElementById('pm2_5').querySelector('.value').textContent = 
+    document.getElementById('pm2_5').querySelector('.value').textContent =
         `${Math.round(airData.pm2_5)} µg/m³`;
-    document.getElementById('pm10').querySelector('.value').textContent = 
+    document.getElementById('pm10').querySelector('.value').textContent =
         `${Math.round(airData.pm10)} µg/m³`;
-    document.getElementById('carbon_monoxide').querySelector('.value').textContent = 
+    document.getElementById('carbon_monoxide').querySelector('.value').textContent =
         `${Math.round(airData.carbon_monoxide)} µg/m³`;
-    document.getElementById('nitrogen_dioxide').querySelector('.value').textContent = 
+    document.getElementById('nitrogen_dioxide').querySelector('.value').textContent =
         `${Math.round(airData.nitrogen_dioxide)} µg/m³`;
-    document.getElementById('sulphur_dioxide').querySelector('.value').textContent = 
+    document.getElementById('sulphur_dioxide').querySelector('.value').textContent =
         `${Math.round(airData.sulphur_dioxide)} µg/m³`;
-    document.getElementById('ozone').querySelector('.value').textContent = 
+    document.getElementById('ozone').querySelector('.value').textContent =
         `${Math.round(airData.ozone)} µg/m³`;
 
-    // Update AQI index and color
     const aqiElement = document.getElementById('aqi-index');
     const aqi = airData.european_aqi;
     let qualityClass = 'quality-good';
@@ -188,8 +188,25 @@ function updateAirQuality(airData) {
     aqiElement.textContent = `Air Quality Index: ${aqi} (${qualityText})`;
 }
 
+function enableSmoothScroll() {
+    const smoothScrollContainers = document.querySelectorAll('.hourly-forecast-container, .daily-forecast-container');
+
+    smoothScrollContainers.forEach(container => {
+        container.addEventListener('wheel', (event) => {
+            event.preventDefault();
+            container.scrollBy({
+                left: event.deltaY < 0 ? -100 : 100,
+                behavior: 'smooth'
+            });
+        });
+    });
+}
+
 // Fetch weather data when the page loads
-fetchWeather();
+document.addEventListener('DOMContentLoaded', () => {
+    fetchWeather();
+    enableSmoothScroll();
+});
 
 // Update weather every 30 minutes
 setInterval(fetchWeather, 30 * 60 * 1000);
